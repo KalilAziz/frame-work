@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animações com CSS</title>
+        <link rel="stylesheet" href="../../../css/estrutura.css">
+
+    </head>
+    <body> 
+
+        <div class="voltar">
+            <a href="../../topicos.html">Voltar</a>
+        </div>
+        <section>
+            <div class="title">
+                <h1>KeyFrames</h1>
+            </div>
+            <div class="container">
+            
+                <div class="conteudo">
+                        <p class="descricao">
+                            Para criar a animação, primeiro temos que definir quatro passos, sendo elas: <br><br>
+                            Criar a animação <br>
+                            Definir o início, fim e dizer qual propriedade quer modificar <br>
+                            Atribuir o nome da animação ao elemento que deseja animar <br>
+                            E por ultimo, quanto tempo vai levar para ir de estado “a” até estado “b”.
+
+                        </p>
+                        <p class="descricao">
+                            Para criar a animação com KeyFrames, primeiro precisamos colocar <strong>@Keyframes</strong> no topo do css com um nome, no caso do exemplo, changeColor, mas pode ser qualquer nome.
+                        </p>
+    
+                        <p class="descricao">
+                            Depois colocamos um <strong>from{ }</strong> e passamos as propriedades que temos no início da animação. E depois 
+                            Depois, temos que atribuir essa animação ao elemento que vamos animar, colocando a propriedade <strong>animation-name: ;</strong> e o nome da animação <br>
+                        </p>
+                        <p class="descricao">
+                            E por último, temos que definir o tempo de duração com animation-duration:;
+                        </p>
+
+                                
+
+                        
+                </div>
+
+                
+    
+    
+                <div class="codepen">
+                    <p class="codepen" data-height="550" data-theme-id="dark" data-default-tab="result" data-slug-hash="qBPdKqQ" data-preview="true"
+                    data-editable="true"
+                    data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/qBPdKqQ">
+                        KeyFrames</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+    
+    
+            </div>
+        </section>
+
+       
+
+
+
+        <section>
+            <div class="title">
+                <h1>Adicionando estados a animação</h1>
+            </div>
+
+            <div class="container">
+                <div class="conteudo">
+                    <p class="descricao">
+                        Para adicionar estados a animação, em vez de adicionar o <strong>from{ }</strong> e o <strong>to{ }</strong>, podemos fazer por meio de <strong>%</strong>, podendo colocar quantas quiser, mas no exemplo vamos utilizar apenas três etapas
+                    </p>
+
+                </div>
+            
+                <div class="codepen">
+                    <p class="codepen" data-height="550" data-theme-id="dark" data-default-tab="result" data-slug-hash="jOGPKBB" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/jOGPKBB">
+                        Untitled</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </section>
+
+
+        
+        
+        <section>
+            <div class="title">
+                <h1>Propriedades</h1>
+            </div>
+            
+            <div class="container">
+                <div class="conteudo">
+                    <p class="descricao">
+                        Adicionando propriedades as animações, onde podemos ter mais propriedades modificadas ao mesmo tempo.
+                    </p>
+
+                </div>
+            
+
+    
+    
+                <div class="codepen">
+                    <p class="codepen" data-height="550" data-theme-id="dark" data-default-tab="result" data-slug-hash="gOGpKxp" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/gOGpKxp">
+                        Propriedades</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </section>
+
+
+        
+        
+        <section>
+            <div class="title">
+                <h1>Delay</h1>
+            </div>
+            
+            <div class="container">
+                <div class="conteudo">
+                    <p class="descricao">
+                        Podemos escolher um tempo para que a animação começa, colocando o <strong>animation-delay: ;</strong> em segundos, podendo mesmo sendo em valores negativos, como se já tivesse passado um tempo que a animação está acontecendo
+                    </p>
+
+                </div>
+    
+                <div class="codepen">
+                    <p class="codepen" data-height="550" data-theme-id="dark" data-default-tab="result" data-slug-hash="xxXGzXQ" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/xxXGzXQ">
+                        Delay</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </section>
+
+
+       
+        
+        <section>
+            <div class="title">
+                <h1>Loop</h1>
+            </div>
+            
+            <div class="container">
+                <div class="conteudo">
+                    <p class="descricao">
+                        Para que a animação repita várias vezes, estando em loop, podemos colocar o <strong>animation-iteration-count: ;</strong> que colocamos a contagem de números de vezes que a animação irá acontecer ou infinite, que ela acontecerá infinitas vezes
+                    </p>
+                </div>
+            
+
+    
+                <div class="codepen">
+                    <p class="codepen" data-height="550" data-theme-id="dark" data-default-tab="result" data-slug-hash="GRMJGyJ" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/GRMJGyJ">
+                        Loop</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </section>
+
+        
+        <section>
+            <div class="title">
+                <h1>Direction</h1>
+            </div>
+            
+            <div class="container">
+                <div class="conteudo">
+                    <p class="descricao">
+                        Podemos definir o sentido da animação, por padrão, ela começa do início ou 0% e vai até o final. 100%, mas podemos colocar para ela ser executada ao contrário, começando por 100% e finalizar com 0% com a propriedade  <strong>animation-direction: reverse;;</strong>
+                    </p>
+
+                    <p class="descricao">
+                        Mas o animation-direction:; não serve apenas para rodar uma animação ao contrário, mas também o <strong>animation-direction: alternate;</strong> que deve ser usado em conjunto com o animation-iteration-count: ;, onde ele vai alternar de normal para reverse e normal de acordo com quantas vezes a animação tem que ser executada, com o exemplo de 3 vezes: 0 ate 100%, 100% até 0 e 0 até 100, em vez de começar de 0 até 100% todas as vezes.
+                    </p>
+
+                    <p class="descricao">
+                        E podemos ter o <strong>animation-direction: alternate-reverse;</strong> que é o contrário do alternate, onde começa do 100% até 0, 0 até 100 e 100% até 0 em uma animação de 3 vezes
+
+                    </p>
+                </div>
+      
+                <div class="codepen">
+                    <p class="codepen" data-height="550" data-theme-id="dark" data-default-tab="result" data-slug-hash="bGodKKg" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/bGodKKg">
+                        Untitled</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <section>
+            <div class="title">
+                <h1>Fill Mode</h1>
+            </div>
+            
+            <div class="container">
+                <div class="conteudo">
+                    <p class="descricao">
+                        Depois que uma animação acaba, ela volta a suas configurações originais antes da animação começar a ser executada, o que normalmente faz uma quebra brusca e deixa a animação “feia” no final.
+                    </p>
+                    <p class="descricao">
+                        <strong>animation-fill-mode: forwards;</strong> faz com que o elemento permaneça com suas configurações do último frame das animações
+                    </p>
+
+                    <p class="descricao">
+                        <strong>animation-fill-mode: backwards;</strong> que funciona em conjunto com o animation-delay:; onde ao carregar a página, o elemento já vem configurado com o primeiro frame da animação, espera o daley passar e inicia a animação.
+                    </p>
+                    <p class="descricao">
+                        <strong>animation-fill-mode: both;</strong> é a junção do animation-fill-mode: forwards; e o animation-fill-mode:
+                    </p>
+                </div>
+            
+
+    
+                <div class="codepen">
+                    <p class="codepen" data-height="550" data-theme-id="dark" data-default-tab="result" data-slug-hash="zYEGaJm" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/zYEGaJm">
+                        Fill Mode</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </section>
+
+         
+ 
+        
+        <section>
+            <div class="title">
+                <h1>Timing function</h1>
+            </div>
+            
+            <div class="container">
+                <div class="conteudo">
+                    <p class="descricao">
+                        Para mover uma animação, basta colocar um <strong>position relative ou absolute</strong> e controlar com <strong>left, top, right ou bottom</strong>.
+                    </p>
+                    <p class="descricao">
+                        O timing function define a velocidade da animação de movimento, sendo elas:. 
+                    </p>
+
+                    <p class="descricao">
+                        <strong>animation-timing-function: linear;</strong> que vai na mesma velocidade até parar;.
+                    </p>
+                    <p class="descricao">
+                        <strong>animation-timing-function: ease;</strong> começa o movimento um pouco mais de vagar, depois fica muito mais rápido, depois dica de vagar novamente;. 
+                    </p>
+                    <p class="descricao">
+                        <strong>animation-timing-function: ease-in;</strong> Começa com uma velocidade um pouco mais devagar, e depois fica na velocidade do linear.
+                    </p>
+                    <p class="descricao">
+                        <strong>animation-timing-function: ease-in-out;</strong> começa um pouco mais rápido e o final é um pouco mais devagar.
+                    </p>
+                    <p class="descricao">
+                        <strong>animation-timing-function: ease-out;</strong> começa devagar e termina mais devagar.
+                    </p>
+                    <p class="descricao">
+
+                    </p>
+                </div>
+    
+                <div class="codepen">
+                    <p class="codepen" data-height="550" data-theme-id="dark" data-default-tab="result" data-slug-hash="GRMJdqB" data-preview="true" 
+                    data-editable="true"data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/GRMJdqB">
+                        Animações</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+    
+    
+            </div> 
+        </section>
+        
+    <script src="js/script.js"></script>
+    </body>
+</html>
