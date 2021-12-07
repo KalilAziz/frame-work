@@ -12,7 +12,8 @@ a{
 }
 
 body{
-    background-color:darkslategrey
+    background-color:darkslategrey;
+    
 }
 
 
@@ -20,19 +21,7 @@ body{
 
 
 
-.container{
-    max-width: 1920px;
-    padding: 20px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    color: var(--color-descricao);
-    border: 1px solid white;
-    box-shadow: 5px 5px 18px 0px rgba(50, 50, 50, 0.6);
-    margin: 20px;
-    border-radius: 20px;
 
-}
 
 section{
     margin-top: 50px;
