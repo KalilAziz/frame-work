@@ -12,30 +12,12 @@ a{
 }
 
 body{
-    padding: 0 30px;
     background-color:darkslategrey
 }
 
 
 
-.voltar a{
-    display: inline-block;
-    background-color: white;
-    margin: 20px 0;
-    padding: 10px 40px;
-    text-align: center;
-    border-radius: 12px;
-    color: black;
-    text-decoration: none;
-}
 
-.voltar a:hover{
-    box-shadow: 5px 5px 18px 0px rgba(50, 50, 50, 0.6);
-    transition: 1s;
-    background-color: black;
-    color: white;
-    border-radius: 25px;
-}
 
 
 .container{
@@ -47,11 +29,14 @@ body{
     color: var(--color-descricao);
     border: 1px solid white;
     box-shadow: 5px 5px 18px 0px rgba(50, 50, 50, 0.6);
-    margin-bottom: 20px;
+    margin: 20px;
     border-radius: 20px;
+
 }
 
-
+section{
+    margin-top: 50px;
+}
 
 
 section .name-linguage{

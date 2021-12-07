@@ -1,28 +1,30 @@
 *{
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
-:root{
-    --background-elementos: rgb(100, 100, 100);
-    --color-descricao: white;
-    --color-title: gold;
-}
 
 body{
-    padding: 0 30px;
-    background-color:darkslategrey
+    background-color:darkslategrey;
+    height: 100%;
+}
+
+html{
+    height: 100%;
 }
 
 .voltar a{
     display: inline-block;
     background-color: white;
-    margin: 20px 0;
     padding: 10px 40px;
     text-align: center;
     border-radius: 12px;
     color: black;
     text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .voltar a:hover{
@@ -34,44 +36,141 @@ body{
 }
 
 
-.container{
-    max-width: 1920px;
-    padding: 20px;
-    margin: auto;
-    display: flex;
-    background-color: var(--background-elementos);
-    color: var(--color-descricao);
-    border-radius: 50px;
+.cabecalho{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
 }
-header{
+
+
+#btn-mobile{
+    display: none;
+
+}
+#btn-mobile div{
+    display: none;
+
+}
+
+
+
+.cabecalho ul{
     display: flex;
     justify-content: center;
-    
-}
-header h1{
-    text-align: center;
-    background-color: var(--background-elementos);
-    padding: 10px 20px;
-    border-radius: 50px;
-    margin: 60px auto 20px auto;
-    color:var(--color-title);
-    box-shadow:         5px 5px 18px 0px rgba(50, 50, 50, 0.6);
-    
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
-.container .conteudo .descricao strong{
-    font-size: 1.2rem;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--color-title);
+.cabecalho ul li{
+    list-style: none;
+    margin-right: 20px;
+    height: 100%;
 }
 
-.container .descricao{
-    text-align: justify;
+.cabecalho ul li a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white;
 }
-.conteudo,
-.codepen{
-    flex: 1;
-    margin: 10px;
+.cabecalho ul li a:hover{
+    background-color: white;
+    color: black;
+    border-bottom: 3px solid red;
+    transition: 1.5s;
+}
+
+.cabecalho ul li .active{
+    color: white;
+    border-bottom: 3px solid red;
 }
 
 
+
+
+
+
+
+.cabecalho ul li a div{
+    display: flex;
+    align-items: center;
+    height: 57px;
+}
+
+.cabecalho ul li a div img{
+    margin-right: 5px;
+}
+
+.voltar a{
+    display: none;
+    background-color: white;
+}
+
+
+@media (max-width: 1180px ) {
+    #btn-mobile{
+        display: block;
+        width: 40px;
+        height: 27px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    #btn-mobile .traco{
+        display: block;
+        width: 40px;
+        height: 3px;
+        background-color: black;
+    }
+
+    #menu{
+        display: none;
+        
+    }
+
+    .cabecalho{
+        background-color: black;
+        width: 100%;
+        height: auto;
+    }
+
+    #nav.active #menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    #nav.active #btn-mobile .traco{
+        background-color: white;
+    }
+
+    .voltar a{
+        display: block;
+        
+    }
+    #nav.active .voltar a{
+        display: none;
+        background-color: red;
+    }
+
+    .cabecalho ul li{
+        flex: 1;
+        min-width: 200px;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 430px ) {
+    .cabecalho ul li{
+        max-width: 300px;
+    }
+
+}
