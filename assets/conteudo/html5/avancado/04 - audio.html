@@ -106,24 +106,40 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            Para conseguirmos adicionar um áudio no site, devemos usar a tag <strong>&lt;audio&gt; &lt;/audio&gt;</strong> com seus atributos, muito semelhantes com as da tag vídeo, onde no atributo <b>src=""</b> coloca o diretório e no type, depois da barra, vc coloca o tipo de arquivo, como ogg, mpeg...
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            Para colocarmos o diretório onde o audio está, precisamos colocar a tag <strong>&lt;source type="audio/"&gt; &lt;/source&gt;</strong>, onde o atributo <b>type="video/"</b> colocamos o formato do vídeo, sendo mpeg, ogg, entre outros, para que se o navegador não suportar aquele formato, temos um outro substituto
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            Existe alguns atributos complementares que podemos utilizar para complementar a tag <b>&lt;audio&gt; &lt;/audio&gt;</b>, sendo elas:
                         </p>
                         <p class="descricao">
-                            
+                            <strong>controls</strong>: Adiciona controles de vídeo, como reprodução, pausa e volume.
                         </p>
+                        <p class="descricao">
+                            <strong>width</strong> e <strong>height</strong>: Se a altura e a largura não forem definidas, a página pode piscar enquanto o vídeo carrega.
+                        </p>
+                        <p class="descricao">
+                            <strong>muted</strong>: Vídeo será reproduzido no mudo automaticamente.
+                        </p>
+                        <p class="descricao">
+                            <strong>autoplay</strong>: Vídeo será reproduzido automaticamente quando a página carregar.
+                        </p>
+                        <p class="descricao">
+                            <strong>loop</strong>: Podemos deixar o vídeo em loop, onde o vídeo vai ficar rodando várias e várias vezes colocando o atributo loop.
+                        </p>
+                        <p class="descricao">
+                            <strong>preload=""</strong>: Recebe três valores, sendo eles o <b>“auto”</b>, que quando a página terminar de carregar, o vídeo vai começar a carregar na memória do computador, o <b>“none”</b>, que o vídeo só vai começar a carregar quando quando o usuário dê play e o último é <b>“metadata”</b> que quando a página terminar a carregar, o site vai carregar alguns metadados que o vídeo tem, alguns dados, não o conteúdo do vídeo em si
+                        </p>
+
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html" data-slug-hash="MWEyorQ" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWEyorQ">
-                            Estruturas basicas html</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html" data-slug-hash="vYeGPLM" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/vYeGPLM">
+                            Audio</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
                           </p>
                           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

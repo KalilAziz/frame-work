@@ -79,6 +79,8 @@ section .container div .codepen{
     min-width: 400px;
 }
 
+
+
 section .container .conteudo{
     padding: 10px;
     text-align: justify;
@@ -87,6 +89,12 @@ section .container .conteudo{
 
 section .container .conteudo strong{
     color: aqua;
+    
+}
+
+section .container .conteudo span{
+    color:rgb(71, 252, 0);
+    font-weight: bold;
     
 }
 
