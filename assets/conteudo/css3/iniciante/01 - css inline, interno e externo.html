@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../css/estrutura.css">
     <link rel="stylesheet" href="../../../css/style.css">
-    <title></title>
+    <title>CSS inline, CSS interno e CSS externo</title>
 </head>
 <body>
     <header class="cabecalho">
@@ -34,7 +34,7 @@
                 </li>
                 
                 <li>
-                    <a  class="active"  href="../html.html">
+                    <a href="../../html5/html.html">
                         <div>
                             <img src="../../../image/icon-html.png" width="30" alt=""> HTML5
                         </div>
@@ -42,7 +42,7 @@
                 </li>
     
                 <li>
-                    <a href="../../css3/css.html">
+                    <a class="active" href="../css.html">
                         <div>
                             <img src="../../../image/icon-css.png" width="30" alt=""> CSS3
                         </div>
@@ -99,7 +99,7 @@
     <main>
         <section>
 
-            <div class="title"><h1 class="basico"> </h1></div>
+            <div class="title"><h1 class="basico"> CSS inline, CSS interno e CSS externo</h1></div>
      
             <div class="container">
                 
@@ -107,27 +107,20 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            O css inline é uma maneira de modificar a aparência de um elemento no próprio elemento, não sendo muito recomendável, já que não será tão eficiente. Para declarar o css inline, precisamos colocar o atributo <b>style=""</b> em alguma div.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            O css interno é uma maneira de modificar a aparência de um elemento em uma estrutura que ainda está dentro da página HTML, sendo necessário declarar a tag 	<strong>&lt;style	&gt;	&lt;/style	&gt;</strong> dentro da tag 	<strong>&lt;head	&gt;	&lt;/head	&gt;</strong> , mas também não é muito recomendável, já que não será tão eficiente.
                         </p>
+
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            A declaração do css externo é a melhor opção, já que ficam em uma página própria, facilitando muito na hora da manutenção ou edição do código.  Para que possa ser feito, primeiramente criamos uma página com extensão <b>“.css”</b>, sendo o mais comum “style.css”, posteriormente basta fazer um link na tag 	<strong>&lt;head	&gt;	&lt;/head	&gt;</strong>, ligando a página css a página HTML. Esse link pode ser feito da seguinte forma: 	<strong>&lt;link rel="stylesheet" href="style.css"	&gt;</strong>, onde o <b>href=""</b> será o nome e local da página css
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html" data-slug-hash="MWEyorQ" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWEyorQ">
-                            Estruturas basicas html</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                       
                     </div>
         
                     

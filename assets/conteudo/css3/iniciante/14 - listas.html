@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../css/estrutura.css">
     <link rel="stylesheet" href="../../../css/style.css">
-    <title></title>
+    <title>Listas</title>
 </head>
 <body>
     <header class="cabecalho">
@@ -34,7 +34,7 @@
                 </li>
                 
                 <li>
-                    <a  class="active"  href="../html.html">
+                    <a href="../../html5/html.html">
                         <div>
                             <img src="../../../image/icon-html.png" width="30" alt=""> HTML5
                         </div>
@@ -42,7 +42,7 @@
                 </li>
     
                 <li>
-                    <a href="../../css3/css.html">
+                    <a class="active" href="../css.html">
                         <div>
                             <img src="../../../image/icon-css.png" width="30" alt=""> CSS3
                         </div>
@@ -99,7 +99,7 @@
     <main>
         <section>
 
-            <div class="title"><h1 class="basico"> </h1></div>
+            <div class="title"><h1 class="basico">Listas</h1></div>
      
             <div class="container">
                 
@@ -107,27 +107,42 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Existem dois tipos de listas, a ordenadas e as não ordenadas.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Começando pelas não ordenadas, por padrão elas vêm com um ponto na frente de cada ítem da tela, e para que possamos removê-las, precisamos colocar um atributo <strong>list-style-type: none;</strong> onde essa propriedade também pode ser atribuída para as listas ordenadas.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Continuando ainda com a lista não ordenada, se quiser trocar o símbolo na frente de cada item, temos as seguintes opções: <strong>list-style-type:disc;</strong> (que é a padrão), <strong>list-style-type:circle;</strong> (círculo vazado) e <strong>list-style-type:square;</strong> (quadrado).
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Já se quisermos colocar uma imagem no lugar dos símbolos, bastamos colocar um <strong>list-style-image: url("")</strong>.
                         </p>
+                        <p class="descricao">
+                            Já para a lista ordenada, temos: 
+                        </p>
+                        <p class="descricao">
+                            <strong>list-style-type:upper-roman;</strong> que fará a ordenação em números romanos maiúsculos.
+                        </p>
+                        <p class="descricao">
+                            <strong>list-style-type:lower-roman;</strong> que fará a ordenação em números romanos minúsculos.
+                        </p>
+                        <p class="descricao">
+                            <strong>list-style-type:upper-alpha;</strong> que fará a ordenação em alfabeto maiúsculo.
+                        </p>
+                        <p class="descricao">
+                            <strong>list-style-type:lower-alpha;</strong> que fará a ordenação em alfabeto minúsculo.
+                        </p>
+                        <p class="descricao">
+                            <b>OBS:</b> Por padrão, os símbolos das listas não vem necessariamente dentro da mesma box, o que pode ser observado se colocado uma borda no <b>li</b>. Para que eles fiquem na mesma box, é necessário colocar um <strong>list-style-position: inside;</strong>.
+                        </p>
+
+                        
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html" data-slug-hash="MWEyorQ" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWEyorQ">
-                            Estruturas basicas html</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                        
                     </div>
         
                     
