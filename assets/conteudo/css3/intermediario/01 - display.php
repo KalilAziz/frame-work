@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/estrutura.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <title>Display</title>
+    <script>
+        var active = 3
+        var voltar = "conteudo/css3/css - intermediario.php"
+        var link_geral = "../../../index.php"
+        var caminho_camada  = "../../../../" 
+        var icon = "../../../../assets"
+
+      </script>
+      
+  </head>
+  <body>
+      <?php
+              include '../../../../modules/active.php';
+      ?>
+  
+          <?php
+              include '../../../../modules/header.php';
+          ?>
+    
+
+    <main>
+        <section>
+
+            <div class="title"><h1 class="intermediario">Display</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            A propriedade display é a responsável por dizer como cada elemento é mostrado na tela. O display é dividido em:
+                        </p>
+                        <p class="descricao">
+                            <strong>display: block;</strong> (Um bloco que utiliza todo o espaço disponível da tela e joga o próximo conteúdo na linha abaixo), tendo a capacidade de colocar largura e altura específica
+                        </p>
+                        <p class="descricao">
+                            <strong>display: inline;</strong> (Um bloco que utiliza apenas o espaço do elemento na tela e o próximo conteúdo pode continuar na mesma linha), não tendo a capacidade de colocar largura e altura específica
+                        </p>
+                        <p class="descricao">
+                            <strong>display: inline-block;</strong> mantém as características do display inline com as capacidades do display block; Display: none; não aparece na tela
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+    </main>
+    
+
+
+    <script src="../../../Javascript/script.js"></script>
+</body>
+</html>

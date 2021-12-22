@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/estrutura.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <title>Ajustes de texto</title>
+    <script>
+        var active = 3
+        var voltar = "conteudo/css3/css - basico.php"
+        var link_geral = "../../../index.php"
+        var caminho_camada  = "../../../../"
+        var icon = "../../../../assets"
+
+      </script>
+      
+  </head>
+  <body>
+      <?php
+              include '../../../../modules/active.php';
+      ?>
+  
+          <?php
+              include '../../../../modules/header.php';
+          ?>
+    
+
+    <main>
+        <section>
+
+            <div class="title"><h1 class="basico">Ajustes de texto</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            <strong>color:;</strong>: Cor das letras
+                        </p>
+                        <p class="descricao">
+                            <strong>text-align:;</strong>: Alinhamento do texto, que pode ser definido como <b>start</b>, <b>end</b>, <b>left</b>, <b>right</b>, <b>center</b>, <b>justify</b>.
+                        </p>
+                        <p class="descricao">
+                            <strong>text-transform>:;</strong>: Pode ser <b>uppercase</b> (Que transforma o texto inteiro em letras maiúsculas), <b>lowercase</b> (Todas as letras em minúsculas) e <b>capitalize</b> (A primeira letra de cada palavra é maiúsculas).
+                        </p>
+                        <p class="descricao">
+                            <strong>text-indent:;</strong>: Serve para colocar um espaçamento da primeira palavra da primeira linha da margem, como se fosse um parágrafo.
+                        </p>
+                        <p class="descricao">
+                            <strong>text-decoration:;</strong>: <b>underline</b> (traceja por baixo do texto), <b>overline</b> (traceja por cima do texto), <b>line-through</b> (risca a palavra), <b>none</b> (sem estilo).
+                        </p>
+                        <p class="descricao">
+                            <strong>letter-spacing:;</strong> Espaçamento entre as letras.
+                        </p>
+                        <p class="descricao">
+                            <strong>line-height:;</strong>: Altura entre as linhas.
+                        </p>
+                        <p class="descricao">
+                            <strong>word-spacing:;</strong>: Espaçamento entre as palavras.
+                        </p>
+                        <p class="descricao">
+                            <strong>text-shadow:;</strong>: Serve para dar sombra ao texto, possuindo quatro valores, o primeiro é o distanciamento left, o segundo é o distanciamento top, o terceiro é o esfumaçamento e o quarto é a cor.
+                        </p>
+
+                        
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+    </main>
+    
+
+
+    <script src="../../../Javascript/script.js"></script>
+</body>
+</html>

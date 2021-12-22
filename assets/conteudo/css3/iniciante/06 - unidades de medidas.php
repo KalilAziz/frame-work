@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/estrutura.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <title>Unidades de medidas Fixas</title>
+    <script>
+        var active = 3
+        var voltar = "conteudo/css3/css - basico.php"
+        var link_geral = "../../../index.php"
+        var caminho_camada  = "../../../../"
+        var icon = "../../../../assets"
+
+      </script>
+      
+  </head>
+  <body>
+      <?php
+              include '../../../../modules/active.php';
+      ?>
+  
+          <?php
+              include '../../../../modules/header.php';
+          ?>
+    
+
+    <main>
+        <section>
+
+            <div class="title"><h1 class="basico">Unidades de medidas Fixas</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            As unidades de medidas fixas podem ser dado por vários tipos, sendo elas: 
+                        </p>
+                        <p class="descricao">
+                            centímetro(<strong>cm</strong> ). 
+                        </p>
+                        <p class="descricao">
+                            milímetros(<strong>mm</strong> ).
+                        </p>
+                        <p class="descricao">
+                            polegadas(<strong>in</strong> ).
+                        </p>
+                        <p class="descricao">
+                            pixels(<strong>px</strong> ).
+                        </p>
+                        <p class="descricao">
+                            pontos(<strong>pt</strong> , dependendo do tamanho da tela).
+                        </p>
+                    </div>
+
+            </div>
+
+            <div class="title"><h1 class="basico">Unidades de medidas relativas</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            As unidades de medidas relativas são muito utilizadas para responsividade, podendo ser dado por vários tipos, sendo elas: 
+                        </p>
+                        <p class="descricao">
+                            <strong>em</strong>: Herda o tamanho da unidade de medida do elemento <b>pai</b>, ou seja, se a elemento <b>pai</b> está com um <b>font-size: 20px</b>, caso seja definido um elemento <b>filho</b> com <b>font-size: 1em;</b> a fonte vai ter 20px, caso seja definido um <b>font-size: 2em;</b> a fonte vai ter 40px. 
+                        </p>
+                        <p class="descricao">
+                            <strong>rem</strong>: Utiliza o tamanho do elemento raiz, ou seja, o HTML, sendo que o tamanho dela é de 16px. Se definirmos um font-size: 2rem; de uma div, ela terá 32px.
+                        </p>
+                        <p class="descricao">
+                            <strong>vw</strong>: utiliza a largura total da tela, ou seja, 1vw é 1% da largura total da tela 
+                        </p>
+                        <p class="descricao">
+                            <strong>vh</strong>: Utiliza a altura total da tela, ou seja, 1vh é 1% da altura total da tela
+                        </p>
+                        <p class="descricao">
+                            <strong>vmin</strong>: Utiliza a menor dimensão da tela
+                        </p>
+                        <p class="descricao">
+                            <strong>vmax</strong>: Utiliza a maior dimensão da tela
+                        </p>
+                        <p class="descricao">
+                            <strong>%</strong>: Utiliza sempre utiliza a % do elemento pai
+                        </p>
+                    </div>
+
+            </div>
+    
+            
+    
+        </section>
+    </main>
+    
+
+
+    <script src="../../../Javascript/script.js"></script>
+</body>
+</html>
