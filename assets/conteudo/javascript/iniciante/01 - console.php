@@ -38,17 +38,26 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                             O método console.log serve para exibir o conteudo no console, onde pode ser feito com qualquer valor, sempre que for texto, temos que colocar entre aspas, se for números ou variáveis, não precisa. Para as várias forma de declaração de valores que possamos utilizar em console.log, utilizamos da seguinte maneira:
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                              <span>console.log('Hello World!')</span>: String, precisa ser colocado entre aspas
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                              <span>console.log("Kalil 'Aziz' ")</span>: Exemplo de situação que queremos utilizar aspas dentro do console.log, mas temos que ter atenção para não dar conflito
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                              <span>console.log(`"Kalil" 'Aziz'`)</span>: Utilizando crazr, não temos problema com as crazes e conflitos
                         </p>
+                        <p class="descricao">
+                             <span>console.log(1)</span>: Number, não precisa ser colocado entre aspas
+                        </p>
+                        <p class="descricao">
+                             <span>console.log(123, 456, 'Kalil Aziz')</span>: Podemos exebir vários valores também dentro do console.log, desde que etejam separados por ","
+                        </p>
+
+                        
+                        
                     </div>
                     
                 

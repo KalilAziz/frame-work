@@ -38,27 +38,18 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Um array é uma lista, uma coleção de coisas com divisões e podemos acessar cada valor separadamente. Para criar uma array, utilizamos uma variável, um nome, um sinal de igual e colchetes, onde dentro do colchetes colocamos oque quisermos separados por vírgulas, onde são indexadas, começando por 0
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html" data-slug-hash="MWEyorQ" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWEyorQ">
-                            Estruturas basicas html</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="RwLVrzm" data-user="kalilaziz" style="height: 612px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/RwLVrzm">
+  029 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div>
         
                     

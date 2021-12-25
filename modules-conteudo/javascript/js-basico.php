@@ -14,14 +14,13 @@
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/08 - atrinuicoes.php">Atribuições</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/09 - incremento.php">Incremento</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/10 - alert-confirm-e-promt.php">Alert, confirm e promt</a></li>
-                    <li><a class="basico" href="../../conteudo/javascript/iniciante/11 - string.php">String</a></li>
-                    <li><a class="basico" href="../../conteudo/javascript/iniciante/12 - numbers.php">numbers</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/iniciante/11 - string.php">Mais sobre string</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/iniciante/12 - numbers.php">Mais sobre Numbers</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/13 - objeto-math.php">Objeto Math</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/14 - arrays.php">Arrays</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/15 - funcoes.php">funções</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/16 - objetos.php">Objetos</a></li>
-                    <li><a class="basico" href="../../conteudo/javascript/iniciante/17 - valores-primitivos.php">Valores primitivos</a></li>
-                    <li><a class="basico" href="../../conteudo/javascript/iniciante/18 - valores-por-referencia.php">Valores por referência</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/iniciante/17 - valores-primitivos.php">Valores primitivos e por referência</a></li>
     </ul>
 
 </div>

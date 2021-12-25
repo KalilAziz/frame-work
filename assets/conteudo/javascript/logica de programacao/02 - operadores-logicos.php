@@ -38,27 +38,30 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Os operadores lógicos servem para checar mais de uma comparação, sendo eles:
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <span>&&</span> -> AND -> E: onde eles terão que comparar as duas condições para que seja dado como verdadeiro, caso uma delas seja, falsas, tudo será dado como falso
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <span>||</span> ->  OR -> OU: Apenas uma das condições tem que ser verdadeira, não importa qual, será dado como verdadeiro, caso contrário, será dado como falso
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <span>!</span> -> NOT -> NÃO: Sinal de negação: Ele inverte o valor de uma operação
+                        </p>
+                        <p class="descricao">
+                        &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; 
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html" data-slug-hash="MWEyorQ" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWEyorQ">
-                            Estruturas basicas html</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="abLwwed" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<span>See the Pen <a href="https://codepen.io/kalilaziz/pen/abLwwed">
+038 - Operadores lógicos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div>
         
                     

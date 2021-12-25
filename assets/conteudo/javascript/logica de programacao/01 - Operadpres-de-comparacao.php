@@ -38,27 +38,42 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Os operadores de comparação servem para comparar dois valores, sendo eles:
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <span>></span> : maior que, 
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <span>>=</span> : Maior ou igual que
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <span><</span>  ;  menor que
+                        </p>
+                        <p class="descricao">
+                        <span><=</span>  : menor ou igual que
+                        </p>
+                        <p class="descricao">
+                        <span>==</span> : igualdade, que pode ser confundido com o sinal de atribuição (=). O sinal de igualdade checa a igualdade entre dois operandos, tanto da esquerda quando da direita, checando apenas os valores, e não os tipos. Então um number 7 e string '7' são iguais. Por conta dessa caracterísitica, não é recomendado sua utilziação
+                        </p>
+                        <p class="descricao">
+                        <span>===</span>: igualdade estrito: O sinal de igualdade restrita chega valor e tipo, diferentemente do anterior, onde utilizando o mesmo exemplo, number 7 e string '7' não são iguais
+                        </p>
+                        <p class="descricao">
+                        <span>!=</span> : diferente:  O sinal de diferente checa a diferença entre dois operandos, tanto da esquerda quando da direita, checando apenas os valores, e não os tipos. Então um number 7 e string '7' são iguais. Por conta dessa caracterísitica, não é recomendado sua utilziação
+                        </p>
+                        <p class="descricao">
+                        <span>!==</span>  : Diferente estrito. O sinal de diferente estrito chega valor e tipo, diferentemente do anterior, onde utilizando o mesmo exemplo, number 7 e string '7' não são iguais
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html" data-slug-hash="MWEyorQ" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWEyorQ">
-                            Estruturas basicas html</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="BawZZYm" data-user="kalilaziz" style="height: 582px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/BawZZYm">
+  037 - Operadores de comparação</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div>
         
                     

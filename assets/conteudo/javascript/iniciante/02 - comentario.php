@@ -38,24 +38,15 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Comentários são trexos de códigos que são ignorados pelo motor do JavaScript, marcado por <span>//</span>, muito utilizado para fazer anotações, comentários, lembretes, entre outros. Muito utilizado também para fazer o motor do JS ignorar uma linha de código temporariamente. Existem também comentários de blocos, onde demarca toda uma região, marcado por <span>/*   */</span>
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
                     <p class="codepen" data-height="330" data-theme-id="dark" data-default-tab="js" data-slug-hash="bGoeJxL" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 330px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/bGoeJxL">
-  11 - comentário</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                    <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/bGoeJxL">
+                     11 - comentário</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

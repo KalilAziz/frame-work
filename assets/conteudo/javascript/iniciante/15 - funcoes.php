@@ -38,23 +38,27 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Funções executam acões, um bloco de código que executa ações, onde vc manda um valor e normalmente pega de volta. Para criar uma função, utilizamos a palavra function, dar um nome, colocar parenteses e chaves, onde dentro da chaves colocamos um 'return.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Dentro dos parenteses poderia vir valores e inputs de dados, denominado parâmetro. 
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Depois da construção da função, para que ela possa ser executada, temos que chamar ela pelo nome em conjunto com os parenteses, sendo que os valores que iremos passar dentro desses paranteses se chama argumentos.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Vale lembrar que tudo que estiver dentro da função, está protegido, sem a possibilidade de suas variáveis ou operações internas entrar em conflito com o meio externo
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                    <div data-snack-id="@kalilaziz/mod-05---01---entendendo-react-native" data-snack-platform="web" data-snack-preview="true" data-snack-theme="dark" style="overflow:hidden;background:#212121;border:1px solid var(--color-border);border-radius:4px;height:905px;width:100%"></div>
-<script async src="https://snack.expo.dev/embed.js"></script>
+                    <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="WNZjjZj" data-user="kalilaziz" style="height: 651px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/WNZjjZj">
+  031 - Funções básico</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div>
         
                     

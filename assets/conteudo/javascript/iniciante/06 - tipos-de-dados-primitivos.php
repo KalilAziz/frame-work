@@ -38,21 +38,34 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Os tipos de dados primitivos são: String, number, undefined
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <span>String:</span> São declaradas usando aspas simples, duplas e crazes, onde seus valores são os caracteres
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <span>Number:</span> São os números, podendo ser inteiros ou com ponto flutuantes (números "quebrados"), como 10.7
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <span>Undefined:</span> são os valores indefinidos, normalmente em variáveis declaradas que não receberam valores
                         </p>
+                        <p class="descricao">
+                        <span>Null:</span> Valor vazio, definido como nulo, não apontando nem reservando lugar na memória, diferentemete do undefined, que pode posteriormente, receber um valor durante a execução do programa. O null serve para desconfigurar uma variável.
+                        </p>
+                        <p class="descricao">
+                        <span>Boolean:</span> Os valores booleanos aceitam dois tipos de valores, sendo true ou false> Apesar de só tiver dois valores, eles são considerados lógicos, ou seja, sempre que for utilizar alguma coisa dentro do seu sistema que irá mudar o fluxo da aplicação, utilziamos booleano
+                        </p>
+
                     </div>
                     
                 
                     <div class="codepen">
+                    <p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="js" data-slug-hash="ZEXpLye" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/ZEXpLye">
+  019 - Tipos de dados primitivos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div>
         
                     
