@@ -7,12 +7,12 @@ sectionClassPooProto.innerHTML = `
 </div>
 <div class="container">
     <ul>
-                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/01 - criando-classes.php">Criando classes</a></li>
-                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/02 - getters-e-setters.php">Getters e Setters</a></li>
-                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/03 - herancas-com-classes.php">Herança com classes</a></li>
-                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/04 - metodos-de-instancia-e-estatico.php">Métodos de instância e estáticos</a></li>
-                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/05 - usando-classes.php">Usando classes (Validando CPF)</a></li>
-                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/06 - validando-um-formulario.php">Validando um formulário (usando classe)</a></li>
+                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/01 - criando-classes.html">Criando classes</a></li>
+                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/02 - getters-e-setters.html">Getters e Setters</a></li>
+                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/03 - herancas-com-classes.html">Herança com classes</a></li>
+                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/04 - metodos-de-instancia-e-estatico.html">Métodos de instância e estáticos</a></li>
+                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/05 - usando-classes.html">Usando classes (Validando CPF)</a></li>
+                    <li><a class="avancado" href="../../conteudo/javascript/javascript classes poo e prototypes/06 - validando-um-formulario.html">Validando um formulário (usando classe)</a></li>
     </ul>
 
 </div>

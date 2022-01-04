@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/estrutura.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <title>Position</title>
+    <script>
+        var active = 3
+        var voltar = "conteudo/css3/css - basico.html"
+        var link_geral = "../../../index.html"
+        var caminho_camada  = "../../../../"
+        var icon = "../../../../assets"
+
+      </script>
+      
+  </head>
+  <body>
+      <div class="header"></div>
+    
+
+    <main>
+        <section>
+
+            <div class="title"><h1 class="intermediario">Position</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Para os tipos de possibilidades de posições, temos:
+                        </p>
+                        <p class="descricao">
+                            <strong>static</strong>: padrão, com a regra do display block, inline, inline-block.
+                        </p>
+                        <p class="descricao">
+                            <strong>relative</strong>: Que não altera a posição de nenhum outro elemento, independentemente das propriedades estabelecidas. Podemos ter várias possibilidades, como usar as propriedades: top, que movimenta o elemento de cima para baixo; o right que movimenta o elemento da direita para a esquerda; bottom, que movimenta o elemento de cima para baixo; left, que movimenta o elemento da esquerda para a direita
+                        </p>
+                        <p class="descricao">
+                            <b>OBS1:</b>O problema do position relative é que mesmo que retire aquele elemento do lugar, ainda assim ocupará um espaço na posição original, impedindo de outros elementos ocupar aquele espaço.
+                        </p>
+                        <p class="descricao">
+                            O <strong>position: absolute</strong> resolve isso, o elemento fica flutuando por cima de todos e não ocupa espaço nenhum na tela, onde a posição inicial dele não afeta outros elementos.
+
+                        </p>
+                        <p class="descricao">
+                            Outro ponto que ele corrige o problema do <b>position relative</b> é que no position relative, se precisar colar um elemento no canto, podemos fazer isso facilmente mudando valores como <b>top, left, right e bottom</b>, mas se o tamanho do elemento <b>pai</b> aumentar, o elemento <b>filho</b> (position relative) fica fixo, quebrando o layout e não mais colado na borda, e para resolver isso no position absolute, basta colocar top, left, right ou bottom com valor 0, onde o código entenderá que estará a 0px daquela posição, e continuará lá, mesmo que o tamanho do elemento pai se modifique.
+                        </p>
+                        <p class="descricao">
+                            <strong>position:fixed</strong>: O elemento age com a mesma propriedade do posicionamento absoluto, onde não ocupa mais espaço na tela, só que não dá pra corrigir o posicionamento, então ele vai ficar posicionado em relação ao viewport, então nenhum elemento <b>pai</b> pode segurá-lo.
+                        </p>
+                        <p class="descricao">
+                            <strong>position: sticky;</strong>: É uma mistura do posicionamento relative e fixed, ao contrário do absolute, o elemento ainda continua ocupando seu espaço na tela, mas se descer com a barra de rolagem, ele irá ficar preso na tela e irá seguir. Mas depende do da medida colocada, ou seja, se definir top:0px; assim que o elemento chegar posição 0px do topo, ele irá fixar lá em cima.
+
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+
+                    </div>
+  
+            </div>
+ 
+        </section>
+    </main>
+    
+
+
+    <script src="../../../../modules/active.js"></script>
+    <script src="../../../../modules/header.js"></script>
+    <script src="../../../Javascript/script.js"></script>
+</body>
+</html>
