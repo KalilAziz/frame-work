@@ -9,32 +9,24 @@
     <link rel="stylesheet" href="../../css/style.css">
     <script>
         var active = 4
-        var voltar = "assets/conteudo/topicos.php"
-        var link_geral = "../../../index.php"
+        var voltar = "index.html"
+        var link_geral = "../../../"
         var caminho_camada  = "../../../" 
         var icon = "../../../assets"
-
       </script>
       
   </head>
   <body>
-      <?php
-              include '../../../modules/active.php';
-      ?>
-  
-          <?php
-              include '../../../modules/header.php';
-          ?>
+    <div class="header"></div>
+   
+    <section class="section-basico"></section>
+
+ 
     
-    <section>
-
-    <?php
-              include '../../../modules-conteudo/javascript/js-basico.php';
-          ?>
-
-    </section>
-
-
+    <script src="../../../modules/active.js"></script>
+    <script src="../../../modules/header.js"></script>
     <script src="../../Javascript/script.js"></script>
+
+    <script src="../../../modules-conteudo/javascript/js-basico.js"></script>
+
 </body>
-</html>

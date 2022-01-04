@@ -8,29 +8,27 @@
     <link rel="stylesheet" href="../../css/conteudo.css">
     <link rel="stylesheet" href="../../css/style.css">
     <script>
-        var active = 2
-        var voltar = "assets/conteudo/topicos.php"
-        var link_geral = "../../../index.php"
+        var active = 3
+        var voltar = "assets/conteudo/topicos.html"
+        var link_geral = "../../../index.html"
         var caminho_camada  = "../../../" 
         var icon = "../../../assets"
-
       </script>
       
   </head>
   <body>
-      <?php
-              include '../../../modules/active.php';
-      ?>
-  
-          <?php
-              include '../../../modules/header.php';
-          ?>
-    
-    <section>
-    <?php
-              include '../../../modules-conteudo/css/css-basico.php';
-          ?>
-    </section>
+    <div class="header"></div>
+   
+    <section class="section-basico"></section>
+
+      
+
+   
+    <script src="../../../modules/active.js"></script>
+    <script src="../../../modules/header.js"></script>
     <script src="../../Javascript/script.js"></script>
+
+    <script src="../../../modules-conteudo/css/css-basico.js"></script>
+
 </body>
 </html>

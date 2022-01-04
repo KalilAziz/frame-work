@@ -1,5 +1,5 @@
 const sectionClassPooProto = document.querySelector('.section-classes-poo-e-prototypes')
-sectionPooProto.innerHTML = `
+sectionClassPooProto.innerHTML = `
 
 <div class="name-linguage">
             <img src="../../image/icon-js.png" width="40px" alt="">
