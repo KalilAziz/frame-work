@@ -15,7 +15,7 @@ sectionBasico.innerHTML = `
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/06 - tipos-de-dados-primitivos.html">Tipos de dados primitivos</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/07 - operadores-aritimeticos.html">Operadores aritméticos</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/08 - atrinuicoes.html">Atribuições</a></li>
-                    <li><a class="basico" href="../../conteudo/javascript/iniciante/09 - incremento.html">Incremento</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/iniciante/09 - incremento.html">Incremento e Decremento</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/10 - alert-confirm-e-promt.html">Alert, confirm e promt</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/11 - string.html">Mais sobre string</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/12 - numbers.html">Mais sobre Numbers</a></li>
