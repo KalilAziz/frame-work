@@ -1,3 +1,6 @@
+const sectionAssinc = document.querySelector('.section-assincrono')
+sectionAssinc.innerHTML = `
+
 <div class="name-linguage">
             <img src="../../image/icon-js.png" width="40px" alt="">
             <h2>JavaScript - Assíncrono - Promises, Ajax, Fetch e Async/Await</h2>
@@ -13,3 +16,4 @@
     </ul>
 
 </div>
+`

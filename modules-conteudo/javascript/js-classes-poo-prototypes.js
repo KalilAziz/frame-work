@@ -1,3 +1,6 @@
+const sectionClassPooProto = document.querySelector('.section-classes-poo-e-prototypes')
+sectionPooProto.innerHTML = `
+
 <div class="name-linguage">
             <img src="../../image/icon-js.png" width="40px" alt="">
             <h2>JavaScript - Programação Orientado ao Objeto e Prototypes</h2>
@@ -13,3 +16,4 @@
     </ul>
 
 </div>
+`

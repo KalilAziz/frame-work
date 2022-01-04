@@ -1,3 +1,5 @@
+const sectionAvancado = document.querySelector('.section-avancado')
+sectionAvancado.innerHTML = `
 <div class="name-linguage">
             <img src="../../image/icon-css.png" width="40px" alt="">
             <h2>CSS3 - Avançado</h2>
@@ -17,3 +19,4 @@
                     <li><a class="avancado" href="avancado/09 - animações.php">Animações</a></li>
                 </ul>
         </div>
+`

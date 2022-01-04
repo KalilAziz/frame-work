@@ -12,13 +12,16 @@ body{
     align-items: center;
     height: auto;
     width: auto;
+    overflow-x: hidden;
 }
 
 html{
     height: auto;
     width: auto;
 }
-
+.header{
+    width: 100vw;
+}
 .container{
     max-width: 1420px;
     padding: 20px;

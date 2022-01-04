@@ -1,3 +1,5 @@
+const sectionBasico = document.querySelector('.section-basico')
+sectionBasico.innerHTML = `
 <div class="name-linguage">
             <img src="../../image/icon-css.png" width="40px" alt="">
             <h2>CSS3 - Básico</h2>
@@ -21,3 +23,4 @@
                     <li><a class="basico" href="iniciante/14 - listas.php">Listas</a></li>
                 </ul>
         </div>
+`

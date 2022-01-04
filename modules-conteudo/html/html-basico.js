@@ -1,4 +1,5 @@
-
+const sectionBasico = document.querySelector('.section-basico')
+sectionBasico.innerHTML = `
 <div class="name-linguage">
             <img src="../../image/icon-html.png" width="40px" alt="">
             <h2>HTML5 - Básico</h2>
@@ -18,3 +19,4 @@
     </ul>
 
 </div>
+`

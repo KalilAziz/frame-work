@@ -8,24 +8,20 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Conteudo</title>
     <script>
-        var active = 9
-        var voltar = "Framework-master/index.php"
-        var link_geral = "../../../index.php"
-        var caminho_camada  = "../../" 
-        var icon = "../../assets"
+        let active = 9
+        let voltar = ''
+        let link_geral = "../../../index.html"
+        let caminho_camada  = "../../" 
+        let icon = "../../assets"
 
       </script>
       
   </head>
   <body>
-      <?php
-              include '../../modules/active.php';
-      ?>
-      <?php
-              include '../../modules/header.php';
-      ?>
-
-            
+    
+    <div class="header"></div>
+   
+   
 
 
 
@@ -44,9 +40,9 @@
     
     
                 <div class="nivel-aprendizado">
-                    <a href="html5/html-basico.php" class="basico">Básico</a>
-                    <a href="html5/html-intermediario.php" class="intermediario">Intermediário</a>
-                    <a href="html5/html-avancado.php" class="avancado">Avançado</a>
+                    <a href="html5/html-basico.html" class="basico">Básico</a>
+                    <a href="html5/html-intermediario.html" class="intermediario">Intermediário</a>
+                    <a href="html5/html-avancado.html" class="avancado">Avançado</a>
                     <a href="" class="especialista">Especialista</a>
                 </div>
             </div>
@@ -57,9 +53,9 @@
                 <a href="css3/css.html"><h1> CSS3 </h1></a>
                 </div>
                 <div class="nivel-aprendizado">
-                    <a href="css3/css - basico.php" class="basico">Básico</a>
-                    <a href="css3/css - intermediario.php" class="intermediario">Intermediário</a>
-                    <a href="css3/css - avancado.php" class="avancado">Avançado</a>
+                    <a href="css3/css - basico.html" class="basico">Básico</a>
+                    <a href="css3/css - intermediario.html" class="intermediario">Intermediário</a>
+                    <a href="css3/css - avancado.html" class="avancado">Avançado</a>
                     <a href="" class="especialista">Especialista</a>
                     <a href="" class="hacks">Hacks</a>
                 </div>
@@ -68,19 +64,17 @@
             <div class="linguage">
                 <div class="name-linguagem">
                     <img src="../image/icon-js.png" alt="" width="30px"> 
-                <h1>
-                    Java Script
-                </h1>
+                <a href="javascript/javascript.html"><h1>Java Script</h1></a>
                 </div>
                 <div class="nivel-aprendizado">
-                    <a href="javascript/js - iniciante.php" class="basico">Básico</a>
-                    <a href="javascript/js - logica-de-programacao.php" class="basico">Lógica de Programação</a>
+                    <a href="javascript/js - iniciante.html" class="basico">Básico</a>
+                    <a href="javascript/js - logica-de-programacao.html" class="basico">Lógica de Programação</a>
                     <!-- <a href="" class="intermediario">Intermediário</a> -->
-                    <a href="javascript/js - funcao(avancado).php" class="avancado">Funções (Avançado)</a>
-                    <a href="javascript/js - array(avancado).php" class="avancado">Arrays (Avançado)</a>
-                    <a href="javascript/js - objetos e prototypes(avancado).php" class="avancado">Objetos e Prototypes (Avançado)</a>
-                    <a href="javascript/js - classes-poo-e-prototypes.php" class="avancado">POO e Prototypes</a>
-                    <a href="javascript/js - assincrono.php" class="avancado">Assíncrono</a>
+                    <a href="javascript/js - funcao(avancado).html" class="avancado">Funções (Avançado)</a>
+                    <a href="javascript/js - array(avancado).html" class="avancado">Arrays (Avançado)</a>
+                    <a href="javascript/js - objetos e prototypes(avancado).html" class="avancado">Objetos e Prototypes (Avançado)</a>
+                    <a href="javascript/js - classes-poo-e-prototypes.html" class="avancado">POO e Prototypes</a>
+                    <a href="javascript/js - assincrono.html" class="avancado">Assíncrono</a>
                     <!-- <a href="" class="especialista">Especialista</a> -->
                     <!-- <a href="" class="hacks">Hacks</a> -->
                 </div>
@@ -147,7 +141,7 @@
     
             <div class="linguage">
                 <div class="name-linguagem">
-                    <img src="../image/icone-mongo.png" alt="" width="30px"> 
+                    <img src="../image/icon-mongo.png" alt="" width="30px"> 
                 <h1>
                     Mongo DB
                 </h1>
@@ -163,7 +157,11 @@
             
         </div>
     </section>
+    
 
     <script src="../Javascript/script.js"></script>
+    <script src="../../modules/active.js"></script>
+    <script src="../../modules/header.js"></script>
+    
 </body>
 </html>

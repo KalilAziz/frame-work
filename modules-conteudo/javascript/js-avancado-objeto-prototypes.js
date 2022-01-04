@@ -1,3 +1,6 @@
+const sectionAcObjProto = document.querySelector('.section-avancado-objetos-prototypes')
+sectionAcObjProto.innerHTML = `
+
 <div class="name-linguage">
             <img src="../../image/icon-js.png" width="40px" alt="">
             <h2>JavaScript - Objetos e Prototypes (Avançado)</h2>
@@ -17,3 +20,4 @@
     </ul>
 
 </div>
+`

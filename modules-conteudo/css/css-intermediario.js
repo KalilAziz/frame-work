@@ -1,3 +1,6 @@
+const sectionIntermediario = document.querySelector('.section-intermediario')
+sectionIntermediario.innerHTML = `
+
 <div class="name-linguage">
             <img src="../../image/icon-css.png" width="40px" alt="">
             <h2>CSS3 - Intermediário</h2>
@@ -18,3 +21,4 @@
                 </ul>
                     
         </div>
+`

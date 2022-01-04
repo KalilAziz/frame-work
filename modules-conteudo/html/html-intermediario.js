@@ -1,3 +1,5 @@
+const sectionIntermediario = document.querySelector('.section-intermediario')
+sectionIntermediario.innerHTML = `
 <div class="name-linguage">
             <img src="../../image/icon-html.png" width="40px" alt="">
             <h2>HTML5 - Intermediário</h2>
@@ -13,3 +15,5 @@
                     <li><a class="intermediario" href="intermediario/05 - tags semantica.php">tags semânticas</a></li>
                 </ul>
         </div>
+
+`

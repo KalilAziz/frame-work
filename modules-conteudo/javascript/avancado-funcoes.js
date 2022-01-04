@@ -1,3 +1,6 @@
+const sectionAcFunc = document.querySelector('.section-avancado-funcoes')
+sectionAcFunc.innerHTML = `
+
 <div class="name-linguage">
             <img src="../../image/icon-js.png" width="40px" alt="">
             <h2>JavaScript - Funções (Avançado)</h2>
@@ -19,3 +22,4 @@
     </ul>
 
 </div>
+`

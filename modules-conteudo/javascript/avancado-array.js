@@ -1,3 +1,6 @@
+const sectionAcArray = document.querySelector('.section-avancado-array')
+sectionAcArray.innerHTML = `
+
 <div class="name-linguage">
             <img src="../../image/icon-js.png" width="40px" alt="">
             <h2>JavaScript - Arrays (Avançado)</h2>
@@ -16,3 +19,4 @@
     </ul>
 
 </div>
+`

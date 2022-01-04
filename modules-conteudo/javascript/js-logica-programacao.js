@@ -1,3 +1,5 @@
+const sectionLogica = document.querySelector('.section-logica-de-programacao')
+sectionLogica.innerHTML = `
 <div class="name-linguage">
             <img src="../../image/icon-js.png" width="40px" alt="">
             <h2>JavaScript - Lógica de Programação</h2>
@@ -26,4 +28,4 @@
     </ul>
 
 </div>
-
+`
