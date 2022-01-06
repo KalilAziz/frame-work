@@ -23,7 +23,7 @@ sectionBasico.innerHTML = `
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/12 - numbers.html">Mais sobre Numbers</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/13 - objeto-math.html">Objeto Math</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/14 - arrays.html">Arrays</a></li>
-                    <li><a class="basico" href="../../conteudo/javascript/iniciante/15 - funcoes.html">funções</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/iniciante/15 - funcoes.html">Funções</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/16 - objetos.html">Objetos</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/17 - valores-primitivos.html">Valores primitivos e por referência</a></li>
     </ul>
