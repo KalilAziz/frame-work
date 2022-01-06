@@ -57,7 +57,7 @@ section .container ul li{
 section .container ul li a{
     display: inline-block;
     border: 1px solid black;
-    min-width: 250px;
+    min-width: 300px;
     text-align: center;
     color: black;
     box-shadow: 5px 5px 18px 0px rgba(50, 50, 50, 0.6);
@@ -70,6 +70,10 @@ section .container ul li a:hover{
     color: white;
     transition: 2s;
     border-radius: 40px;
+}
+
+section .container ul .inativo{
+    background-color: rgba(74, 173, 212, 0.172);
 }
 
 section .container ul .basico{
