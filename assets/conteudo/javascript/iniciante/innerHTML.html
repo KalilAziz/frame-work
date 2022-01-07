@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../css/estrutura.css">
     <link rel="stylesheet" href="../../../css/style.css">
-    <title></title>
+    <title>innerHTML</title>
     <script>
         var active = 4
         var voltar = "conteudo/javascript/js - iniciante.html"
@@ -24,32 +24,32 @@
     <main>
         <section>
 
-            <div class="title"><h1 class="basico"></h1></div>
+            <div class="title"><h1 class="basico">innerHTML</h1></div>
      
             <div class="container">
                 
 
 
                     <div class="conteudo">
-                        <div class="conteudo">
-
-                        </div>
-                        <div class="conteudo">
-                            
-                        </div>
-                        <div class="conteudo">
-                            
-                        </div>
-                        <div class="conteudo">
-                            <p class="descricao">
-                                &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	
-                            </p>
-                        </div>
+                        <p class="descricao">
+                            O innerHTML tem a capacidade de escrever em elementos desejados. Para que possamos utilizar o innerHTML, temos que colocar o nome no elemento e posteriormente .innerHTML, depois somente colocar um sinal de atribuição e colocamos o que precisamos, seja uma variável, tags html ou seja um texto, lembrando que se formos colocar caracteres, tem que ser dentro de template string.	
+                        </p>
+                        <p class="descricao">
+                            OBS: O problema é que se já existia conteudo anteriormente dentro do elemento, ele sempre apagará todo conteúdo e colocará o que atribuimos ao innerHTML. Para resolvermos isso, além de colocar o operador de atribuição, colocamos o de atribuição com o "+", que irá pegar o conteudo que tinha anteriormente e adicionar o conteúdo que desejamos.	
+                        </p>
+                        <p class="descricao">
+                            Para demonstramos o funcionamento do innerHTML, iremos utilizar o elemento body do html. E para isso, temos que selecioná-lo. Para selecionar o body, temos que colocar document.body, onde document significa todo o corpo em si do site.	
+                        </p>
                     </div>
-                    
+                        
                 
                     <div class="codepen">
-
+                        <p class="codepen" data-height="800" data-default-tab="js,result" data-slug-hash="XWeBEZw" data-editable="true" data-user="kalilaziz" style="height: 995px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/XWeBEZw">
+                            107 - innerHTML</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div>
         
                     
