@@ -44,7 +44,7 @@ sectionBasico.innerHTML = `
                     <li><a class="inativo" href="../../conteudo/javascript/iniciante/preventDefault().html">preventDefault()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/iniciante/eventos.html">eventos</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/addEventListener().html">addEventListener()</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/iniciante/Exercício-para-Funções-Array-e-Objetos.html">Exercício para Funções, Array e Objetos</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/iniciante/Exercício-para-Funções-Array-e-Objetos.html">Exercício para Funções, Array e Objetos</a></li>
     </ul>
 
 </div>

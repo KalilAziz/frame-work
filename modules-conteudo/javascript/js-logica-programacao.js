@@ -8,14 +8,15 @@ sectionLogica.innerHTML = `
     <ul>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Operadpres-de-comparacao.html">Operadores de comparação</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/operadores-logicos.html">Operadores lógicos</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Valores-Falsy.html">Valores Falsy</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/short-circuit.html">Short-Circuit</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/if,else-if-e-else.html">if, else if e else</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/target.html">target</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/value.html">value</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/createElement().html">createElement()</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/classList.add().html">classList.add()</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/appendChild().html">appendChild()</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Exercício1.html">Exercício</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/createElement().html">createElement()</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/classList.add().html">classList.add()</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/appendChild().html">appendChild()</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Exercício1.html">Exercício</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/operacções-ternarias.html">Operações ternárias</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/object-date.html">Objeto Date</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/swith-case.html">Swith - Case</a></li>

@@ -30,19 +30,49 @@
 
 
                     <div class="conteudo">
-                    <p class="descricao">
-                        &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; 
+                        <p class="descricao">
+                            O Short Circuit faz utilização dos operados lógicos sendo eles: &&, ||, ! &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
                         </p>
+                        <p class="descricao">
+                            && -> AND -> E: onde eles terão que comparar as duas condições para que seja dado como verdadeiro, caso uma delas seja, falsas, tudo será dado como falso
+                        </p>
+                        <p class="descricao">
+                            || ->  OR -> OU: Apenas uma das condições tem que ser verdadeira, não importa qual, será dado como verdadeiro, caso contrário, será dado como falso
+                        </p>
+                        <p class="descricao">
+                            ! -> NOT -> NÃO: Sinal de negação: Ele inverte o valor de uma operação
+                        </p>
+
                     </div>
                     
                 
                     <div class="codepen">
-                    <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="MWEoOXL" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWEoOXL">
-  039 - Avaliação curto circuito</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+         
+            </div>
+        </section>
+        <section>
+
+            <div class="title"><h1 class="basico">&&</h1></div>
+     
+            <div class="container">
+                
+
+ 
+                    <div class="conteudo">
+                    <p class="descricao">
+                        Na execução de um código que possue um &&, onde todos precisam ser verdadeiros para que retorne verdadeiro, eles são executados em ordem, onde se encontrar um falso no meio do caminho, ele retorna o falso, se todos foram verdadeiros, ele retorna o ultimo verdadeiro.
+                    </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="800" data-default-tab="js" data-slug-hash="MWEoOXL" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWEoOXL">
+                        039 - Avaliação curto circuito</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                        </p>
+                        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div>
         
                     
@@ -52,6 +82,102 @@
             
     
         </section>
+
+        <section>
+
+            <div class="title"><h1 class="basico">Exemplo de utilizaçào com &&</h1></div>
+     
+            <div class="container">
+                
+
+ 
+                    <div class="conteudo">
+                    <p class="descricao">
+                        Utilizando essa teoria para que podemos utilizar em um código mais perfomático e menos verboso, podemos fazer uma função com o dever de retornar apenas 'Oi', mas o diferencial é que podemos colocar uma variável que pode controlar o fluxo, definindo se essa função será executada ou não. Que em vez de fazer uma condição de checagem podemos usar o operador &&.
+                    </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="700" data-default-tab="js" data-slug-hash="XWeOzxa" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/XWeOzxa">
+                            039.2 - Avaliação curto circuito</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="basico">||</h1></div>
+     
+            <div class="container">
+                
+
+ 
+                    <div class="conteudo">
+                    <p class="descricao">
+                        Na execução de um código que possue um ||, onde apenas um precisa ser verdadeiros para que retorne verdadeiro, eles são executados em ordem, onde se encontrar um verdadeiro no meio do caminho, ele retorna o verdadeiro, se todos forem falso, ele retorna o ultimo falso.
+                    </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="bGozYzd" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/bGozYzd">
+                            039.3 - Avaliação curto circuito</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="basico">Exemplo de utilizaçào com ||</h1></div>
+     
+            <div class="container">
+                
+
+ 
+                    <div class="conteudo">
+                    <p class="descricao">
+                        Utilizando essa teoria para que podemos utilizar em um código mais perfomático e menos verboso, onde vamos supor que em um sistema, existe a seleção de cores pelo usuário, onde se ele não escolheu a cor, a cor do sitema será a padrão, se ele selecionar, será a cor escolhida. Em vez de fazermos uma estrutura condicional, podemos utilizar o OR.
+                    </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="eYGxrvV" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/eYGxrvV">
+                            039.4 - Avaliação curto circuito</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        
     </main>
     
     <script src="../../../../modules/active.js"></script>
