@@ -44,19 +44,19 @@ sectionLogica.innerHTML = `
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/tratando-e-lancando-erros-try-catch-throw.html">Tratando e lançando erros (try, catch, throw)</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/tratando-e-lancando-erros-try-catch-finally.html">Tratando e lançando erros (try, catch, finally)</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/setInterval-e-setTimeout.html">setInterval e setTimeout</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/classList.remove().html">classList.remove()</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/classList.contains().html">classList.contains()</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Exercício-Criando-um-timer.html">Exercício - Criando um timer</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/keyCode.html">keyCode</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/focus().html">focus()</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/setAttribute().html">setAttribute()</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/classList.remove().html">classList.remove()</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/classList.contains().html">classList.contains()</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Exercício-Criando-um-timer.html">Exercício - Criando um timer</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/keyCode.html">keyCode</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/focus().html">focus()</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/setAttribute().html">setAttribute()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/parentElement.html">parentElement</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/trim().html">trim()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/JSON-stringify().html">JSON.stringify()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/JSON-parse().html">JSON.parse()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/localStorage-setItem().html">localStorage.setItem()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/localStorage-getItem().html">localStorage.getItem()</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Exercício-Criando-uma-lista-de-tarefas.html">Exercício - Criando uma lista de tarefas</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Exercício-Criando-uma-lista-de-tarefas.html">Exercício - Criando uma lista de tarefas</a></li>
                     
 
     </ul>
