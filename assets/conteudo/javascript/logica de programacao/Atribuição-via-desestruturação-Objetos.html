@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../css/estrutura.css">
     <link rel="stylesheet" href="../../../css/style.css">
-    <title></title>
+    <title>Atribuições via desestruturações - Objetos</title>
     <script>
         var active = 4
         var voltar = "conteudo/javascript/js - logica-de-programacao.html"
@@ -24,32 +24,29 @@
     <main>
         <section>
 
-            <div class="title"><h1 class="basico"></h1></div>
+            <div class="title"><h1 class="basico">Atribuições via desestruturações - Objetos</h1></div>
      
             <div class="container">
                 
 
 
                     <div class="conteudo">
-                        <div class="conteudo">
-
-                        </div>
-                        <div class="conteudo">
-                            
-                        </div>
-                        <div class="conteudo">
-                            
-                        </div>
-                        <div class="conteudo">
-                            <p class="descricao">
-                                &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	
-                            </p>
-                        </div>
+                        <p class="descricao">
+                            A atribuioção via desestruturação é uma nova forma que poderemos fazer atribuições de estruturas, podemos fazer essas atribuições de várias variáveis simuntâneamente. Com a atribuição via desestruturação, podemos "arrancar" coisas do objeto e já utilizar nessa sintax. Lembrando que se inicializar com const, todas as astribuições seguintes terão que ser com const, e com let a mesma coisa. Para que possamos utilizar atribuição via desestrituração com objetos, temos que declarar uma constante com chaves e atribuimos o objeto que queremos retirar os valores. Dentro das chaves, colocamos o nomes dos atributos que desejamos pegar dento do objeto.
+                        </p>
+                        <p class="descricao">
+                            Esse método facilita muito, já que anteriormente teríamos que usar o nome das chaves do objeto, com marcação de ponto, e agora podemos pegar esse valor e já criando uma variável com esse nome.
+                        </p>
                     </div>
                     
                 
                     <div class="codepen">
-
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="qBPpybV" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/qBPpybV">
+                            051 - Atribuição via desestruturação (objetos)</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div>
         
                     
@@ -59,6 +56,141 @@
             
     
         </section>
+        <section>
+
+            <div class="title"><h1 class="basico">Tratamento de erros</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Alguns dos erros mais comuns é que quando estamos fazendo uma atribuição via desestruturação, como temos que colocar o nome dos atributos, pode ocorrer de colocar um nome de um atributo que ainda não exista no objeto, seja por que o atributo ainda não foi inserido no objeto ou seja por conta de um erro do próprio programador. Para que possamos contornar esse problema, temos que, ao colocar o nome do atributo, atribuimos um valor fixo, para que caso o atributo não exista no objeto, esse valor será substituido pelo valor fizado. 
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="500" data-default-tab="js" data-slug-hash="mdBNMYG" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/mdBNMYG">
+                            051.2 - Atribuição via desestruturação (objetos)</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+            </div>
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="basico">Alteração de nomes de variáveis</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Como em Atribuição via desestruturação utilizando objetos, temos que colocar o nome dos atributos para que possamos usar os valores, ficamos muito limitado a nomeclatura, sendo que se colocar um nome diferente, não iremos conseguir pegar os valores dos objetos. Para que possamos utilizar outro nome e manter a funcionalidade padrão, precisamos renomear na hora da tribuição, e para que possamos fazer isso, iremos utilizar o sinal de dois pontos ":". Para que possamos utilizá-lo, dentro das chaves, quando tivermos fazendo a atribuição via desestruturação, temos que colocar o nome do atributo que desejamos pegar seu valor, posteriormente temos que colocar o sinal de dois pontos e o novo nome que usaremos. Para que possa ficar mais completo ainda, podemos usar o método de tratamento de erro, protegendo os valores, podemos deixar apenas atribuido um espaço vazio, para que se faltar o valor, pelo menos não apareça um undefined.
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="ZEXgXYp" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/ZEXgXYp">
+                            051.3 - Atribuição via desestruturação (objetos)</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="basico">Objetos dentro de objetos</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Diversamente nos depareamos com arrays dentro de outros arrays, e com objetos não será diferente, para que possamos acessar os valores desse tipo de objeto, teremos que usar um método diferente. Para que conseguirmos acessar esses valores, na hora de fazer a atribuição via desestruturação, primeiro precisamos identificar o objeto que desejamos colher os valores, onde teremos que colcoar seu nome e dois pontos, posteriormente teremos que abri e fechar chavez. Dentro dessas chavez, iremos colocar, separado por virgulas, os atributos desse objeto que desejamos ter os valores.   
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="oNGKGjq" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/oNGKGjq">
+                            Untitled</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="basico">Resto</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Assim como com atribuição via desestruturação com arrays, podemos pegar o resto de um objeto, mas com uma diferença, como em arrays, temos que colocar os nomes dentro dos colchetes na ordem que queremos pegar os valores, e o resto, serão os valores posteriormes a posição que o resto foi colocado, em objetos, vai ser literalmente o resto, ou seja, todos os outros valors que ainda não tenha sido chamados, ou seja, se o primeiro nome que colocamos para fazer essa atribuição seja um atributo que esteja no meio do objeto, e o segundo nome foi o resto, o resto pegará todos os valores, do início ao fim, com exeção do valor pegado anteriormente. Para que possamos usar o resto, temos que usar o spred operator, tendo que colocar três pontos (...) e um nome, esse nome carregará o resto do array, normalmente esse nome se chama resto mesmo, ou rest.
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="530" data-default-tab="js" data-slug-hash="MWENEKj" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWENEKj">
+                            051.5 - Atribuição via desestruturação (objetos)</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+
+
     </main>
     
 

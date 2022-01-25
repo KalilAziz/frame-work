@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../css/estrutura.css">
     <link rel="stylesheet" href="../../../css/style.css">
-    <title>GriTratando e lançando erros (try, cath, finally)</title>
+    <title>Tratando e lançando erros (try, cath, finally)</title>
     <script>
         var active = 4
         var voltar = "conteudo/javascript/js - logica-de-programacao.html"
@@ -23,7 +23,44 @@
     <main>
         <section>
 
-            <div class="title"><h1 class="basico">GriTratando e lançando erros (try, cath, finally)</h1></div>
+            <div class="title"><h1 class="basico">Tratando e lançando erros (try, cath, finally)</h1></div>
+     
+            <div class="container">
+                
+
+
+                <div class="conteudo">
+                    <p class="descricao">
+                        Quando criamos um sistema, temos que tomar muito cuidado com os erro de programação, já que se houver algum, pode travar todo o sistema, então é muito perigoso e não pode haver falhas. Mas terá alguns momentos que teremos que fazer alguns testes ou não teremos certeza que um código funcionará, e para que o sistema não trave todo, caso aconteça algo errado, podemos fazer um tratamento de erros, que irá ajudar a amenizar o problema e evitar que o sistema caia. Para que possamos fazer o tratamento, iremos usar o try e catch, que tornará possível essa manipulação de código. O try e catch funcionam em conjunto, onde iremos colocar o código perigoso dentro do try, e se esse código apresentar erro, o try será bloqueado e o catch será executado, onde dentro do catch colocaremos o código seguro, o mais comum é colocar em uma variável e mandar para alguma base de dados, nunca, em hipotese alguma coloque o erro para ser exibido para o usuário. Para que possamos utilizar o try, teremos que declarar try{}, onde dentro dos parenteses iremos colocar o código que iremos testar, e logo em seguida, iremos colocar o catch(){}, onde dentro das chaves colocaremos o código que será executado caso dê problema no try e dentro dos parenteses iremos colocar um nome que carrega o erro, mas comum é colcocar o nome de error, que poderá ser usado para lançar o erro.  
+                    </p>
+                    <p class="descricao">
+                        O tratamento de erros foi mostrado anteriormente como ser feito, mas para conseguirmos lançar esse erro, iremos ter que utilizar o throw. O throw normalmente será utilizado dentro de um if, onde colocamos como codição de execução algo que desviaria do que é esperado. para conseguirmos usar o throw, temos que declarar throw, posterormente temos que colocar new por ser um construtos e por fim, colocaremos o nome do erro juntamente com parenteses, sendo o mais comum colocar o nome de Error. Dentro dos parenteses colocaremos alguma mensagem descrevendo o erro que aconteceu entre aspas, por ser uma String. O restante será da mesma fora. Iremos declarar o try{} e catch(){}. Lembrando que usaremos o parâmetro dentro do argumento do catch para carregar o erro, onde que se acontecer algum erro no sistema, esse erro será enviado para o parâmetro, para que possamos enviar para alguma base de dados e fazer o tratamento posteriormente.
+                    </p>
+                    <p class="descricao">
+                        O diferencial dessa forma de tratamento de erros será o acréssimo do finally depois do catch, onde ela sempre será executada, independentemente se acontecer erro ou não. Resumindo, usamos o try para colocar um código perigoso que pode dar erro, usamos o catch para que se o try der erro, o catch entrará no lugar para que possamos colocar algum código que substituirá o try, podendo ser usado para lançar o erro, usamos o throw para que possamos formatar o erro, facilitando a identificação e tratamente, e por fim, usamos o finally, que é um código que sempre será executado, acontecendo o erro ou não, normalmente usado para garantir que tal ação no sistema seja executada.
+                    </p>
+                </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="1000" data-default-tab="js" data-slug-hash="GRMQjpR" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/GRMQjpR">
+                            064 - Tratando e lançando erros (try, catch, finally)</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="basico">Exemplo real</h1></div>
      
             <div class="container">
                 
@@ -31,24 +68,18 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="GRMQjpR" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/GRMQjpR">
-                            064 - Tratando e lançando erros (try, catch, finally)</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="MWOgRGd" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWOgRGd">
+                            064.2 - Tratando e lançando erros (try, catch, finally)</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
                           </p>
                           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

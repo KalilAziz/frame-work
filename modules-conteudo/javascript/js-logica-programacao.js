@@ -20,26 +20,27 @@ sectionLogica.innerHTML = `
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/operacções-ternarias.html">Operações ternárias</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/object-date.html">Objeto Date</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/swith-case.html">Swith - Case</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Exercício-com-Swith-Case.html">Exercício com Swith - Case</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Exercício-com-Swith-Case.html">Exercício com Swith - Case</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/toLocaleString.html">toLocaleString</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Exercício-com-toLocaleString.html">Exercício-com-toLocaleString</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/diferenças-entre-var,let-e-const.html">Diferenças entre var, let e const</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/atribuicoes-via-desestruturacao-array.html">Atribuição via desestruturação - Array</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Atribuição-via-desestruturação-Objetos.html">Atribuição via desestruturação - Objetos</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Atribuição-via-desestruturação-Objetos.html">Atribuição via desestruturação - Objetos</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/for.html">For</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Exercícios-com-for.html">Exercícios com for</a></li>
-                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/dom-e-a-arvore-do-dom.html">DOM e a árvore do DOM</a></li>
+                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/dom-e-a-arvore-do-dom.html">DOM e a árvore do DOM</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/for-in.html">For in</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/forEach()-basico.html">forEach() - basico</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/for-of.html">For of</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/getComputedStyle().html">getComputedStyle()</a></li> 
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/style.html">style</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Exercício-com-NodeList.html">Exercício com NodeList</a></li> 
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/forEach()-basico.html">forEach() - basico</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/getComputedStyle().html">getComputedStyle()</a></li> 
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/style.html">style</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/querySelectorAll().html">querySelectorAll()</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Exercício-com-NodeList.html">Exercício com NodeList</a></li> 
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/while-e-do-while.html">While e Do While</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/break-e-continue.html">Break e Continue</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Execício com-logica-de-programação-1.html">Execício com lógica de programação 1</a></li> 
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Execício com-logica-de-programação-2.html">Execício com lógica de programação 2</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/Execício com-logica-de-programação-3.html">Execício com lógica de programação 3</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Execício com-logica-de-programação-1.html">Execício com lógica de programação 1</a></li> 
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Execício com-logica-de-programação-2.html">Execício com lógica de programação 2</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/logica de programacao/Execício com-logica-de-programação-3.html">Execício com lógica de programação 3</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/tratando-e-lancando-erros-try-catch-throw.html">Tratando e lançando erros (try, catch, throw)</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/tratando-e-lancando-erros-try-catch-finally.html">Tratando e lançando erros (try, catch, finally)</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/logica de programacao/setInterval-e-setTimeout.html">setInterval e setTimeout</a></li>
@@ -50,7 +51,6 @@ sectionLogica.innerHTML = `
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/focus().html">focus()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/setAttribute().html">setAttribute()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/parentElement.html">parentElement</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/querySelectorAll().html">querySelectorAll()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/trim().html">trim()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/JSON-stringify().html">JSON.stringify()</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/logica de programacao/JSON-parse().html">JSON.parse()</a></li>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../css/estrutura.css">
     <link rel="stylesheet" href="../../../css/style.css">
-    <title></title>
+    <title>getComputedStyle</title>
     <script>
         var active = 4
         var voltar = "conteudo/javascript/js - logica-de-programacao.html"
@@ -24,32 +24,27 @@
     <main>
         <section>
 
-            <div class="title"><h1 class="basico"></h1></div>
+            <div class="title"><h1 class="basico">getComputedStyle</h1></div>
      
             <div class="container">
                 
 
 
-                    <div class="conteudo">
-                        <div class="conteudo">
-
-                        </div>
-                        <div class="conteudo">
-                            
-                        </div>
-                        <div class="conteudo">
-                            
-                        </div>
+                    
                         <div class="conteudo">
                             <p class="descricao">
-                                &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	&nbsp; &nbsp; 	
+                                O getComputedStyle tem a capacidade de extrair todos os tipos de informações css aplicados a um elemento específico. Onde posteriormente precisamos apenas escolher que tipo estilo queremos usar, lembrando que para estilizações css que possuem dois nomes, como background color, precisamos formatar em CamelCase, ou seja, não pode ter espaços no nome, e se tiver uma segunda palavra, a primeira palavra começa com letra minuiscula e a segunda palavra com letra maiúscula. Então, background color vira backgroundColor. Para que possamos selecionar o elemento que desejamos ler todas as características css, temos que primeiro criar uma variável com o nome e atribuir getComputedStyle() a ela, onde dentro dos parenteses colocamos o elemento que queremos ler. Para que possamos selecionar qual css gostaríamos que visualizar, basta criar outra variável com o nome, onde iremos atribuir o nome da primeira variável com marcação de ponto, onde iremos colocar o nome do css.	
                             </p>
                         </div>
-                    </div>
                     
                 
                     <div class="codepen">
-
+                        <p class="codepen" data-height="450" data-default-tab="js" data-slug-hash="mdBNaRB" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/mdBNaRB">
+                            126 - getComputedStyle</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div>
         
                     

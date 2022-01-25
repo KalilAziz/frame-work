@@ -75,7 +75,8 @@ section .container:hover{
 }
 
 section .container div .conteudo,
-section .container div .codepen{
+section .container div .codepen,
+section .container .image{
     flex: 1;
     min-width: 400px;
 }
@@ -104,4 +105,12 @@ section .container .conteudo .descricao{
     text-align: justify;
     display: block;
 }
-
+section .container .image{
+    text-align: center;
+    padding: 10px;
+}
+section .container .image img{
+    width: 70%;
+    min-width: 360px;
+    text-align: center;
+}
