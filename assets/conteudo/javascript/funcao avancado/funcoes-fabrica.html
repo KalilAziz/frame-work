@@ -33,24 +33,89 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            A factory function tem uma característica muito importante, a de ser uma função de criação de objetos, ajudando na na hora de ter muitos códigos que teriam que ser repetidos, sendo um exemplo de criação de objetos de criar pessoas, onde poderemos facilmente realizar a geração de novos objetos mudando apenas uma variável. Uma factory funciton tem as mesmas características de uma função clásica, onde iremos declarar da mesma forma, mas o diferencial é que iremos colocar um objeto no return.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Dentro do retorn, iremos colocar os atributos do Objeto, lembrando que se colocarmos os mesmos nomes que estão no parâmetro da função, não será necessário fazer a atribuição de valores, podendo usar diretamente apenas o nome do parâmetro, lembrando que os parâmetros precisam estar separados por virgula. 
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Podemos inserir uma função dentro do objeto também, mas apartir desse momento, ela será denomidada de método. Para que possamos criar a função dentro do objeto, iremos colocar um nome que irá servir como atributo, colocar dois pontos(:) e por fim, uma função anonima. Lembrando que iremos precisar usar o this se quisermos usar algum dos atributos da factory function no nosso método e que nosso metodo também pode ter parâmetros.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            O motivo do this ser utilizado é que ele sempre referencia o valor de quem o chamou. Como para chamar o método, temos que chamar o factory function, com o this, poderemos ter acesso aos dados da factory funcion, ou seja, os atributos.
+                        </p>
+                        <p class="descricao">
+                            Para conseguirmos chamar um método é bem simples, como normalmente a chamada da factory function com seus argumentos irá ser atribuido a uma variável, basta apenas usar o nome dessa variável, marcação de ponto, e colocar o nome do método juntamente com abre e fecha parenteses.
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="gOGvKRx" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <p class="codepen" data-height="950" data-default-tab="js" data-slug-hash="gOGvKRx" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/gOGvKRx">
                             075 - Funções fábrica (factory functions)</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Getter em Factory Functions</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Com a utilização do getter, podemos fazer com que o motor do JavaScript trate o método como um atributo, portanto, na hora de invorcar o método, não precisamos mais colocar aquele abre e fecha parenteses, podendo ser chamada como se estivéssemos chamando um atributo. Para que possamos fazer a utilização do getter, teremos que declarar um get, e o nome do atributo será o nome da function, que deixará de ser anônima. Mas vale lembrar que esse método só funciona com métodos que não possuem parâmetros.
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="700" data-default-tab="js" data-slug-hash="JjOjBZe" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/JjOjBZe">
+                            075.2 - Funções fábrica (factory functions)</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Setter em Factory Functions</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            O setter é muito parecido com o getter, onde poderemos tratar um método como se fosse um atributo, mas o getter é aplicado apenas a métodos que não possuem parâmetros, e é ai que o setter entra, resolvendo esse problema. Para que possamos utilizar o setter, iremos declarar um set, e posteriormente, iremos colocar uma função com um nome. Para conseguir mandar valor pelo setter, como normalmente a chamada da factory function com seus argumentos irá ser atribuido a uma variável, basta apenas usar o nome dessa variável, marcação de ponto, e colocar o nome do método, posteriormente basta colocar o sinal de atribuição e o valor que queremos mandar polo setter.
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="1000" data-default-tab="js" data-slug-hash="XWzWBOB" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/XWzWBOB">
+                            075.3 - Funções fábrica (factory functions)</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
                           </p>
                           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

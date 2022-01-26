@@ -33,22 +33,13 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Os parâmetros de uma função tem a função de receber os valores dos argumentos, onde poderemos utilizar esses valores para fazer alguma operação na função ou qualquer coisa do tipo. Os parametros serão utilizados em ordem da esquerda para a direita, ou seja, quando o argumento mandar um valor, o primeiro parâmetro a receber um valor será o primeiro da esquerda, e por ai vai. Diferentemente de outras linguagens, o js não liga se vc usou o parâmtro criado ou enviou mais argumentos que o necessário, mas o recomendado é enviar apenas os argumentos que serão usados.
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="eYGVGKO" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <p class="codepen" data-height="400" data-default-tab="js" data-slug-hash="eYGVGKO" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/eYGVGKO">
                             069 - Parâmtros da função</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
@@ -63,6 +54,247 @@
             
     
         </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">arguments</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Apenas com as functions que começam com a declaração classica de function, temos uma funcionalidade extra, onde poderemos usar todos os argumentos que foram enviados na chamada da função e reunilos em um único nome, denominado como arguments, sendo colocado detro de um object, permitindo que possamos usá-lo por index também.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="700" data-default-tab="js" data-slug-hash="ZEaEBWY" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/ZEaEBWY">
+                            069.2 - Parâmtros da função</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Parâmetros como variáveis</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            O motor do JavaScript trata os parâmetros como variáveis que poderão armazenar valores que serão usados ao decorrer da função. Caso coloquemos um parâmetro que não receba um valor de um argumentos, terá seu valor como undefined, assim como uma variável que não recebeu valor.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="400" data-default-tab="js" data-slug-hash="bGYGBez" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/bGYGBez">
+                            069.3 - Parâmtros da função</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Tratamento de valores recebidos</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            O motor do JavaScript trata os parâmetros como variáveis que poderão armazenar valores, e caso não receba nenhum valor do argumento, terá seu valor como undefined, assim como uma variável que não recebeu valor. Caso estejamos realizando alguma operação matemática, o undefined fará com que a operação trave, retornando um NaN. Para que possamos prevenir isso, podemos setar um valor padrão aos parâmetros, para que se ela não receba valores dos argumentos, esses valores setados irão substituir e evitar que aconteça uma falha no sistema. Para que possamos fazer esse tratamento, precisamos apenas atribuir o valor desejado no parâmetro desejado.
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="450" data-default-tab="js" data-slug-hash="ExbxNgg" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/ExbxNgg">
+                            069.4- Parâmtros da função</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Pulando argumentos para usar nos parâmtros</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            O motor do JavaScript atribui automaticamente os valores dos argumentos em ordem com os parâmetros, caso desejamos pular um parâmetro, não será possivel faze-lo. Para que possamos pular, teremos que atibuir ao parâmetro um valor undefined por meio do argumento. Fazendo isso, o valor que a função irá usar será o valor padrão que definimos com o tratamento da função.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="400" data-default-tab="js" data-slug-hash="OJOJbbB" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/OJOJbbB">
+                            069.5 - Parâmtros da função</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">atribuição via desestruturação com parâmetros - Objetos</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Podemos mandar qualquer tipo de dado por meio dos argumentos, para que possamos utilizar na função, incluindo objetos. Mas para conseguirmos usar os dados brutos enviados de um objeto inteiro enviado pelos argumentos nos parâmetros, será necessário fazer uma atribuição via desestruturação. Mas é bem simples e precisamos apenas abrir e fechar chavez nos parâmetros da função, onde colocaremos os nomes das chavez que queremos usar dos objetos. Posteriormente, basta usar normalmente os valores na função. Vale lembrar que podemos enviar um objeto inteito nos argumentos da função, ou podemos atribuir esse objeto a uma variável e enviar apenas o nome da variável.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="500" data-default-tab="js" data-slug-hash="LYOYbWj" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/LYOYbWj">
+                            069.6 - Parâmtros da função</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">atribuição via desestruturação com parâmetros - Array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Podemos mandar qualquer tipo de dado por meio dos argumentos, para que possamos utilizar na função, incluindo arrays. Mas para conseguirmos usar os dados brutos enviados de um array inteiro enviado pelos argumentos nos parâmetros, será necessário fazer uma atribuição via desestruturação. Mas é bem simples e precisamos apenas abrir e fechar colchetes nos parâmetros da função, onde colocaremos os nomes dos parâmetros normalmente. Posteriormente, basta usar normalmente os valores na função. Vale lembrar que podemos enviar um array inteito nos argumentos da função, ou podemos atribuir essa array a uma variável e enviar apenas o nome da variável.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="450" data-default-tab="js" data-slug-hash="jOaOVBg" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/jOaOVBg">
+                            069.7 - Parâmtros da função</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Exemplo interessante</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="500" data-default-tab="js" data-slug-hash="gOXOLWd" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/gOXOLWd">
+                            069.8 - Parâmtros da função</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
     </main>
     
 

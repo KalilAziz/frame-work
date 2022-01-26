@@ -11,21 +11,18 @@ sectionAcFunc.innerHTML = `
                     <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/perametros-da-funcao.html">Parâmetros da função</a></li>
                     <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/retorno-da-funcao.html">Retorno da função</a></li>
                     <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/escopo-lexico.html">Escopo léxico</a></li>
-                    
-                    <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/console-dir.html">console.dir</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/Closures.html">Closures</a></li>
+                    <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/console-dir.html">console.dir</a></li>
+                    <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/Closures.html">Closures</a></li>
                     <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/funções-de-callback.html">Funções de callback</a></li>
                     <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/funcoes-imediatas.html">Funções imediatas (IIFE)</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/Getter-e-Setter.html">Getter e Setter</a></li>
                     <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/funcoes-fabrica.html">Factory Functions</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/addEventListener-com-If.html">addEventListener com If</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/bind().html">bind()</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/eval().html">eval()</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/Factory-Functions-Calculadora.html">Factory Functions - Calculadora</a></li>
+                    <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/eval().html">eval()</a></li>
+                    <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/Factory-Functions-Calculadora.html">Calculadora com factory functions</a></li>
                     <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/funcoes-construtoras.html">Constructor functions</a></li>
-                    <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/Constructor-functions-Calculadora.html">Constructor functions - Calculadora</a></li>
+                    <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/Constructor-functions-Calculadora.html">Calculadora com constructor functions</a></li>
                     <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/funcoes-recursivas.html">Funções recursivas</a></li>
-                    <li><a class="avancado" href="../../conteudo/javascript/funcao avancado/funcoes-geradoras.html">Funções geradoras</a></li>
+                    <li><a class="inativo" href="../../conteudo/javascript/funcao avancado/funcoes-geradoras.html">Funções geradoras</a></li>
                     
                     
     </ul>

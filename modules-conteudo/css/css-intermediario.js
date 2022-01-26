@@ -1,5 +1,5 @@
-const sectionIntermediario = document.querySelector('.section-intermediario')
-sectionIntermediario.innerHTML = `
+const sectionIntermediarioCSS = document.querySelector('.section-intermediario-css')
+sectionIntermediarioCSS.innerHTML = `
 
 <div class="name-linguage">
             <img src="../../image/icon-css.png" width="40px" alt="">

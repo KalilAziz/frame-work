@@ -1,5 +1,6 @@
-const sectionBasico = document.querySelector('.section-basico')
-sectionBasico.innerHTML = `
+const sectionBasicoCSS = document.querySelector('.section-basico-css')
+
+sectionBasicoCSS.innerHTML = `
 <div class="name-linguage">
             <img src="../../image/icon-css.png" width="40px" alt="">
             <h2>CSS3 - Básico</h2>

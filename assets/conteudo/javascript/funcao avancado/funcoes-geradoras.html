@@ -32,22 +32,22 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            As funções geradoras tem uma capacidade de quase pausar o código em um lugar especial. Vamos supor que uma função tem três valores, onde que cada vez que chamar a função, iremos querer que ela entregue um dos três valores, podendo ser bom para a perfómace do código em algumas situações. A diferença na declaração dela é que usamos um asterístico junto com function. Os diferentes valores que essa function retorna, temos que colocar o yield, onde a cada vez que chamar, irá desder o yield.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            E para chamar os yield das funções geradoras, temos que chamar elas normalmente, juntamente com .next(), onde ela retornará os valores em forma de objetos, onde terá dois atributos, o value, que carrega o que o yield retorne e o done: que será false até que o ultimo yield da função seja executado, quando todos os yield terem sido chamados e a função for chamado novamento, o done será true.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Para que possamos especificar qual dos valores queremos pegar, seja o value ou o done, temos que usar .next() e marcação de ponto, onde iremos definir qual valores iremos querer.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Podemos utilizar o for para pegar os valores automaticamente.
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="PoJeeJr" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <p class="codepen" data-height="1800" data-default-tab="js" data-slug-hash="PoJeeJr" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/PoJeeJr">
                             Untitled</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
@@ -62,6 +62,109 @@
             
     
         </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Gerador infinito</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Uma das grandes vantagens das funções geradoras é que podemos executar algo diferente toda vez que chamarmos a função, mas o problema é que temos uma quantidade limitada de vezes que possamos fazer essa chamada, ou seja, se definimos apenas 4 yield, nossa função só poderá ser chamada 4 vezes, qualquer chamada além dessa, não retornará nenhum valor. Se acontecer alguma situação que precisamos chamar a função geradora um número desconhecido de vezes, teremos que fazer uma função geradora infinita, e para isso, teremos que colcoar um laço de repetição dentro da função geradora, onde os yield estarão declarados lá dentro. Primeiramente temos que declarar a função geradora, e dentro dela colocaremos um while(){}. Antes, teríamos que colocar uma condição dentro dos parenteses, para que os códigos dentro das chaves sejam executados, mas dessa vez, já iremos definir como true dentro dos parenteses, para que eles seja sempre executado, e dentro das chaves, iremos colcoar os yield. 
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="800" data-default-tab="js" data-slug-hash="JjOjmGR" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/JjOjmGR">
+                            080.2 - Funções geradoras</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Delegar tarefas para outro gerador</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Podemos fazer um trabalho de delegação de uma tarefa de uma função geradora para outra. Para que possamos fazer essa delegação é bem simples, precisamos apenas colocar o chamado da função geradora que desejamos delegar a tarefa em um dos yield da nossa função geradora principal, onde aquele yield irá se repetir enquando toda a função geradora a qual foi delegada uma tarefa ter terminado todos os seus yield, onde posteriromente, o restante dos yield da função geradora principal continuarão ser executados normalmente até terminarem. O único detalhe que temos que prestar atenção é que quando formos fazer a chamada da função que quereros delegar uma tarefa, o yield fa função principal terá que ter um asterístico.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="900" data-default-tab="js" data-slug-hash="oNoNaxW" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/oNoNaxW">
+                            080.3 - Funções geradoras</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Qualquer tipo de dados é possível</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Os yield de uma função geradora pode ser usado para executar qualquer tipo de dado ou estrutura de dados, seja Number, String, Booleanos, Arrays, Objetos, Function. Mas precisamos ter cuidado, pois em casos de função, se colocarmos return, ele vai encerrar a função e não conseguiremos pegar mais nenhum yield abaixo, então temos que evitar o uso do retorn.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="YzEzJqr" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/YzEzJqr">
+                            080.4 - Funções geradoras</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        
     </main>
     
     <script src="../../../../modules/active.js"></script>

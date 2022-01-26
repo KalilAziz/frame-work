@@ -1,5 +1,5 @@
-const sectionIntermediario = document.querySelector('.section-intermediario')
-sectionIntermediario.innerHTML = `
+const sectionIntermediarioHTML = document.querySelector('.section-intermediario-html')
+sectionIntermediarioHTML.innerHTML = `
 <div class="name-linguage">
             <img src="../../image/icon-html.png" width="40px" alt="">
             <h2>HTML5 - Intermediário</h2>

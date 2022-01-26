@@ -1,6 +1,5 @@
-const sectionBasico = document.querySelector('.section-basico')
-sectionBasico.innerHTML = `
-<div class="name-linguage">
+const sectionBasicoHTML = document.querySelector('.section-basico-html')
+sectionBasicoHTML.innerHTML = `<div class="name-linguage">
             <img src="../../image/icon-html.png" width="40px" alt="">
             <h2>HTML5 - Básico</h2>
 </div>
@@ -19,4 +18,5 @@ sectionBasico.innerHTML = `
     </ul>
 
 </div>
+
 `

@@ -7,7 +7,7 @@ sectionBasico.innerHTML = `
 </div>
 <div class="container">
     <ul>
-                    <li><a class="basico" href="../../conteudo/javascript/iniciante/console.html">Console</a></li>
+                    <li><a class="basico" href="../../conteudo/javascript/iniciante/console.html">Console.log</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/Exercicio-com-console.html">Exercício com console</a></li>
                     <li><a class="basico" href="../../conteudo/javascript/iniciante/comentario.html">Comentários no código</a></li>
                     <li><a class="inativo" href="../../conteudo/javascript/iniciante/Navegadores-vs-Node.html">Navegadores vs Node</a></li>
