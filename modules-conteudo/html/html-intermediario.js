@@ -8,11 +8,11 @@ sectionIntermediarioHTML.innerHTML = `
 
         <div class="container">
                 <ul>
-                    <li><a class="intermediario" href="intermediario/01 - formularios.html">Formulário</a></li>
-                    <li><a class="intermediario" href="intermediario/02 - tipos de inputs.html">Tipos de inputs</a></li>
-                    <li><a class="intermediario" href="intermediario/03 - select.html">Select</a></li>
-                    <li><a class="intermediario" href="intermediario/04 - textarea.html">Textarea</a></li>
-                    <li><a class="intermediario" href="intermediario/05 - tags semantica.html">tags semânticas</a></li>
+                    <li><a class="intermediario" href="${diretorioArquivoConteudo}html5/intermediario/01 - formularios.html">Formulário</a></li>
+                    <li><a class="intermediario" href="${diretorioArquivoConteudo}html5/intermediario/02 - tipos de inputs.html">Tipos de inputs</a></li>
+                    <li><a class="intermediario" href="${diretorioArquivoConteudo}html5/intermediario/03 - select.html">Select</a></li>
+                    <li><a class="intermediario" href="${diretorioArquivoConteudo}html5/intermediario/04 - textarea.html">Textarea</a></li>
+                    <li><a class="intermediario" href="${diretorioArquivoConteudo}html5/intermediario/05 - tags semantica.html">tags semânticas</a></li>
                 </ul>
         </div>
 

@@ -8,15 +8,15 @@ sectionAvancadoCSS.innerHTML = `
 
         <div class="container">
                 <ul>
-                    <li><a class="avancado" href="avancado/01 - pseudo elementos.html">Pseudo Elementos</a></li>
-                    <li><a class="avancado" href="avancado/02 - seletores.html">Seletores</a></li>
-                    <li><a class="avancado" href="avancado/03 - pseudo classes.html">Pseudo Classes</a></li>
-                    <li><a class="avancado" href="avancado/04 - funcao calc.html">Função calc</a></li>
-                    <li><a class="avancado" href="avancado/05 - transform.html">Transform</a></li>
-                    <li><a class="avancado" href="avancado/06 - variaveis.html">Variáveis</a></li>
-                    <li><a class="avancado" href="avancado/07 - flex box.html">Flex-Box</a></li>
-                    <li><a class="avancado" href="avancado/08 - grid.html">Grid</a></li>
-                    <li><a class="avancado" href="avancado/09 - animações.html">Animações</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}css3/avancado/01 - pseudo elementos.html">Pseudo Elementos</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}css3/avancado/02 - seletores.html">Seletores</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}css3/avancado/03 - pseudo classes.html">Pseudo Classes</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}css3/avancado/04 - funcao calc.html">Função calc</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}css3/avancado/05 - transform.html">Transform</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}css3/avancado/06 - variaveis.html">Variáveis</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}css3/avancado/07 - flex box.html">Flex-Box</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}css3/avancado/08 - grid.html">Grid</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}css3/avancado/09 - animações.html">Animações</a></li>
                 </ul>
         </div>
 `
