@@ -24,7 +24,7 @@ html{
 }
 .container{
     max-width: 1420px;
-    padding: 15px;
+    padding: 20px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -189,8 +189,24 @@ html{
 
     .cabecalho ul li{
         flex: 1;
-        min-width: 200px;
+        min-width: 90px;
         padding: 10px;
+        
+    }
+
+    .cabecalho ul li a div{
+        display: flex;
+        align-items: center;
+        height: 57px;
+        margin-top: -15px;
+        justify-content: center;
+        
+    }
+    
+    .cabecalho ul li a div img{
+        margin-right: 5px;
+        display: block;
+        margin: auto;
     }
 
 }
