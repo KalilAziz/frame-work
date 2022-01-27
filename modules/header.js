@@ -51,7 +51,13 @@ header.innerHTML = `
                 </a>
             </li>
 
-
+            <li>
+            <a class="${ativo_js}" href="assets/conteudo/${caminho_camada}typescript/typescript.html">
+                    <div>
+                    <img src="${icon}/image/icon-typescript.png" width="38" alt="">TypeScript
+                    </div>
+            </a>
+        </li>
 
 
             <li>

@@ -82,7 +82,7 @@ html{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
+    font-size: 15px;
 }
 
 .cabecalho ul li{
@@ -132,7 +132,7 @@ html{
 }
 
 
-@media (max-width: 1180px ) {
+@media (max-width: 1300px ) {
     #btn-mobile{
         display: block;
         width: 40px;

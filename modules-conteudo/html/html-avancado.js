@@ -1,7 +1,7 @@
 const sectionAvancadoHTML = document.querySelector('.section-avancado-html')
 sectionAvancadoHTML.innerHTML = `
 <div class="name-linguage">
-            <img src="../../image/icon-html.png" width="40px" alt="">
+            <img src="${iconeLinguage}image/icon-html.png" width="40px" alt="">
             <h2>HTML5 - Avançado</h2>
         </div>
 
