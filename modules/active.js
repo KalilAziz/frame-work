@@ -10,20 +10,29 @@
       var ativo_css = "active"
     }
     if(active == 4){
-      var ativo_js = "active"
+      var ativo_git = "active"
     }
     if(active == 5){
-      var ativo_reactjs = "active"
+      var ativo_js = "active"
     }
     if(active == 6){
-      var ativo_firebase = "active"
+      var ativo_ts = "active"
     }
     if(active == 7){
-      var ativo_nodejs = "active"
+      var ativo_reactjs = "active"
     }
     if(active == 8){
-      var ativo_mongo = "active"
+      var ativo_reactN = "active"
     }
     if(active == 9){
+      var ativo_firebase = "active"
+    }
+    if(active == 10){
+      var ativo_nodejs = "active"
+    }
+    if(active == 11){
+      var ativo_mongo = "active"
+    }
+    if(active == 12){
       var ativo_conteudo= "active"
     }

@@ -13,7 +13,7 @@ sectionAcFunc.innerHTML = `
                     <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/funcao avancado/escopo-lexico.html">Escopo léxico</a></li>
                     <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/funcao avancado/console-dir.html">console.dir</a></li>
                     <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/funcao avancado/Closures.html">Closures</a></li>
-                    <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/funcao avancado/funções-de-callback.html">Funções de callback</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/funcao avancado/funcoes-de-callback.html">Funções de callback</a></li>
                     <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/funcao avancado/funcoes-imediatas.html">Funções imediatas (IIFE)</a></li>
                     <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/funcao avancado/funcoes-fabrica.html">Factory Functions</a></li>
                     <li><a class="inativo" href="${diretorioArquivoConteudo}javascript/funcao avancado/bind().html">bind()</a></li>
