@@ -14,6 +14,8 @@
         let caminho_camada  = "../../../../"
         let icon = "../../../../assets"
 
+        let anterior = `05 - prototypes`
+        let proximo = `07 - herancas`
       </script>
       
   </head>
@@ -31,7 +33,7 @@
 
                 <div class="conteudo">
                     <p class="descricao">
-                        &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   
+                        Podemos colocar um objeto como prototype de outro, onde o objeto principal terá acesso a todos os métodos e tributos do objeto que foi inserido, e para que possamos fazer isso, temos que usar o Object.setPrototypeOf(). Para que possamos utiliza-lo, temos que declarar Object.setPrototypeOf(), onde dentro dos parenteses, iremos colocar duas informações separados por vírgula, a primeira é o objeto principal e a segunda é o objeto que iremos setar como prototype do objeto principal.
                     </p>
                     <p class="descricao">
 
@@ -40,9 +42,149 @@
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="qBPYYYy" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="qBPYYYy" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/qBPYYYy">
                             094 - Manipulando Prototypes</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Exemplo</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="700" data-default-tab="js" data-slug-hash="wvPajjg" data-editable="true" data-user="kalilaziz" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/wvPajjg">
+                            094.2 - Manipulando Prototypes</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Exemplo Real</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="mdqJLKV" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/mdqJLKV">
+                            094.2 - Manipulando Prototypes</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Setando novos atributos em constructor function por prototype</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Para que possamos setar novos atributos em uma constructor function, precisamos utilizar o Object.setPrototypeOf, mas a diferença é que os novos atributos estarão dentro de um objeto declarado normalmente, e quando for passar a ordem de quem será o prototype de quem, iremos colocar a constructor function como prototype do objeto. 
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="700" data-default-tab="js" data-slug-hash="zYPGjJy" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/zYPGjJy">
+                            094.4 - Manipulando Prototypes</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Exemplo Real</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="1000" data-default-tab="js" data-slug-hash="YzEXLdX" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/YzEXLdX">
+                            094.5 - Manipulando Prototypes</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
                           </p>
                           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
