@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <title>Concatenação com Arrays</title>
     <script>
-        var active = 4
-        var voltar = "conteudo/javascript/js - array(avancado).html"
-        var link_geral = "../../../index.html"
-        var caminho_camada  = "../../../../"
-        var icon = "../../../../assets"
+        let active = 5
+        let voltar = "conteudo/javascript/js - array(avancado).html"
+        let link_geral = "../../../index.html"
+        let caminho_camada  = "../../../../"
+        let icon = "../../../../assets"
 
       </script>
       
@@ -22,6 +22,7 @@
     
 
     <main>
+
         <section>
 
             <div class="title"><h1 class="avancado">Concatenação com Arrays</h1></div>
@@ -32,22 +33,72 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Para que possamos fazer a concatenação de arrays, não podemos fazer de jeito nenhum utilizando o sinal de + como fazemos com string, onde com arrays, ficará todo bagunçado e travará o sistema. Para que possamos fazer da forma correta, podemos fazer de duas maneiras, sendo com a função concat ou com o rest operator, se tornando um spread.
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="yLzjjpV" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">concat()</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Podemos usar a função concat para que possamos concatenar arrays. Onde teremos que declarar uma variável, onde teremos que colocar o nome da array principal, posteriormente iremos colocar marcação de ponto, e a função concat(). Dentro dos parenteses iremos colcoar o array que desejamos concatenar dentro do array principal. Mas podemos colocar não apenas outra array, mas um conjunto de valores, como [4, 5, 6, 7]. Podemos mandar mais de uma concatenação, mas precisamos separar por vírgula. Lembrando que esse método, concatenamos tudo, não apenas arrays, podemos colocar valores de string também para ser concatenados.
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="yLzjjpV" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/yLzjjpV">
+                            Untitled</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Spread</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            //Podemos usar o rest operator também, mas ele se tornará um spread, que vai espalhar o array, se tornando outra forma de concatenação, se tornando uma forma mais fácil de concatenar, funcionando em objetos também, não apenas em array. Para que possamos utilizálo, temos que declarar uma variável, onde iremos atribuir um abre e fecha colchetes, igual a como declaramos uma array. Posteriromente, iremos colocar as arrays que desejamos concatenar em uma única array, mas temos que colcoar ... antes dos nomes das arrays concatenas. Mas podemos colocar não apenas outra array, mas um conjunto de valores, como [4, 5, 6, 7]. Podemos mandar mais de uma concatenação, mas precisamos separar por vírgula. Lembrando que esse método, concatenamos tudo, não apenas arrays, podemos colocar valores de string também para ser concatenados.
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="yLzjjpV" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/yLzjjpV">
                             Untitled</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>

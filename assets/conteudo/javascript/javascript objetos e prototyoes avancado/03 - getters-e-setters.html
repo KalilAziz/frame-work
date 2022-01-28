@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <title>Getters e Setters</title>
     <script>
-        var active = 4
-        var voltar = "conteudo/javascript/js - objetos e prototypes(avancado).html"
-        var link_geral = "../../../index.html"
-        var caminho_camada  = "../../../../"
-        var icon = "../../../../assets"
+        let active = 5
+        let voltar = "conteudo/javascript/js - objetos e prototypes(avancado).html"
+        let link_geral = "../../../index.html"
+        let caminho_camada  = "../../../../"
+        let icon = "../../../../assets"
 
       </script>
       
@@ -30,24 +30,18 @@
                 
 
 
-                    <div class="conteudo">
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                    </div>
+                <div class="conteudo">
+                    <p class="descricao">
+                        Para que possamos fazer a utilização do getter e setter com Object.defineProperty(), precisamos primeiro declarar uma constructor function normalmente, declarando os atributos e colocando os atributos que desejamos manupular os estados utilizando normalmente o Object.defineProperty(), mas a diferença é que além das quatro informações que colocamos normalmente ( enumerable, value, writable, configurable), colocaremos get e set. Lembrando que não é necessário colocar o value, já que vamos setar o valor usando o get, não é necessário colocar o writable se vamos usar o set, já que o set irá editar o valor. O get tem o papel de setar o valor do parâmetro da constructor function no atributo desejado. E para que possamos usar o get, temos que colocar get, dois pontos (:), e uma função anônima, onde colocamos return e o parâmetro da constructor function. Já o get, tem o papel de setar novos valores no nosso atributo. Para que possamos usar o set, temos que colocar set, dois pontos (:), e uma function anônima, onde iremos colocar um parâmetro. Posteriormente no final da função, iremos colocar o nome do nosso parâmetro da constructor function, e iremos atribuir o parâmetro da function anônima do set.
+                    </p>
+                    <p class="descricao">
+
+                    </p>
+                </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="YzrLLad" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <p class="codepen" data-height="900" data-default-tab="js" data-slug-hash="YzrLLad" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/YzrLLad">
                             091 - Getters e Setters</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>

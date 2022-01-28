@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <title>Revisão do básico em Array</title>
     <script>
-        var active = 4
-        var voltar = "conteudo/javascript/js - array(avancado).html"
-        var link_geral = "../../../index.html"
-        var caminho_camada  = "../../../../"
-        var icon = "../../../../assets"
+        let active = 5
+        let voltar = "conteudo/javascript/js - array(avancado).html"
+        let link_geral = "../../../index.html"
+        let caminho_camada  = "../../../../"
+        let icon = "../../../../assets"
 
       </script>
       
@@ -24,7 +24,7 @@
     <main>
         <section>
 
-            <div class="title"><h1 class="avancado">Revisão do básico em Array</h1></div>
+            <div class="title"><h1 class="avancado">Arrays</h1></div>
      
             <div class="container">
                 
@@ -32,22 +32,152 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Um array é uma lista, uma coleção de coisas com divisões e podemos acessar cada valor separadamente. Para criar uma array, utilizamos uma variável, um nome, um sinal de igual e colchetes, onde dentro do colchetes colocamos oque quisermos separados por vírgulas, onde são indexadas, começando por 0.
+                        </p>
+                    </div>
+                    
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Index de uma array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Em geral, sempre quando tempo algum tipo de estrutura de dados em JavaScript, normalmente funciona sempre da mesma forma, começando sempre a partir de 0 e com array não é diferente. Seus valores são separados por virgulas, se for Strings, seus valores estarão entre aspas, caso contrário, qualquer outro tipo de valor, não será necessário. E como já joi dito, o index começa com 0
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Para fazer a exibição de uma array, precisamos apenas colocar o nome da variável com a qual ela foi criada
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Se quisermos exibir um valor específico do array, é necessário especificar a posição com o qual esse elemento representa dentro do array, e para isso, colocamos o nome do array, colchetes e dentro deles, colocamos sua o valor do index que ele representa na estrutura
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Caso tentamos exibir o valor de uma posição que não existe, o motor do JS não identificará como inválido <strong>NaN</strong>, mas como valor <strong>undefined</strong>
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="VwMxxrE" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <p class="codepen" data-height="570" data-default-tab="js" data-slug-hash="RwLVrzm" data-user="kalilaziz" style="height: 612px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/RwLVrzm">
+                    029 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Reatribuição de valores de uma array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Depois da criação da array, temos a capacidade de fazer diversas edições, e dentre elas, podemos substituir um valor de uma posição que já foi definida, basta apenas selecionar a posição desejada que queremos fazer essa substituição e atribuir a ela o valor que desejamos colocar no lugar, utilizando o sinal de <strong>=</strong>
+                        </p>
+
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="570" data-default-tab="js" data-slug-hash="RwLJZBE" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/RwLJZBE">
+                            029.2 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Remoção de valores (espaço vazio) de uma array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Para que posssamos deletar um valor do array, podemos utilizar o <span>delete</span>. Para que possamos usá-lo, precisamos colocar o <span>delete</span>, e posteriormente referenciar o valor do array que desejamos fazer a remoção, com o nome do array e a posição do valor pelo index dentro de colchetes.
+                        </p>
+                        <p class="descricao">
+                            A diferença do delete para os modos de remoção é que nessa forma, a posição dos outros elementos não serão afetados, porque o valor não vai ser retirado verdadeiramente do array, pois sua posição permanecerá lá, mas seu valor será vazio.
+                        </p>
+                        <p class="descricao">
+                            Esse é um jeito interessante de remover um elemento, caso não queiramos que todos os valores posteriores não tenham suas posições reatribuidas.
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="570" data-default-tab="js" data-slug-hash="mdBKMNZ" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/mdBKMNZ">
+                            029.8 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        
+
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Mutabilidade e Imutabilidade de uma Array por posição da memória</h1></div>
+     
+            <div class="container">
+                
+
+
+                <div class="conteudo">
+                    <p class="descricao">
+                        Como visto anteriormente, arrays são dados por referência, ou seja, se atribuimos a array em uma variável, se modificarmos a variável ou o array, os dois serão modificados, já que estão localizados no mesmoligar na memória. Caso queiramos que essa ação de refletir não acontecça, bastamos colocar o rest operator, que são os ...
+                    </p>
+                    <p class="descricao">
+
+                    </p>
+                </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="1200" data-default-tab="js" data-slug-hash="VwMxxrE" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/VwMxxrE">
                             081 - revisão do básico em array</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
@@ -62,6 +192,325 @@
             
     
         </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Inserção de valores na ultima posição(.length) de uma array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Para adicionar um valor na ultima posição de uma array, podemos apenas colocar da forma que foi mostrada, com a diferença que escolheríamos a posição vazia para inserir o valor, mas temos um problema, que é que teríamos que saber o tamanho da array, para saber o ultimo indice e colocar na próxima posição, sendo a vazia. Para tentar passar por cima desse problema é na utilização do .legth.
+                        </p>
+                        <p class="descricao">
+                            O <span>.length</span> tem a capacidade de exibir a quantidade de elementos que determinada estrutura de dados possue. O <span>.length</span> é perfeito para essas situações de inserção, por exemplo: em uma array, com o qual o ultimo valor tem seu index como 4, e como a indexação começa por 0, esse array tem 5 elementos, e o número 5 é exatamente o valor que o .length mostra. Então, como dá pra perceber, o <span>.length</span> sempre mostra um a mais que o index atual, e é exatamente o que precisamos, inserir o valor uma posição a mais que o ultimo valor do array.
+                        </p>
+                        <p class="descricao">
+                            Para utilizar o <span>.length</span> nessa situação, basta apenas colocar o nome do array e colchetes, exatamente como visto anteriormente, mas em vez de colocar um número dentro dos colchetes, especificando a posição que o valor será inserido, colocamos alunos.length, que gerará esse número automaticamente, posteriormente, basta colocar o sinal de atribuição e o valor que será atribuido aquela posição do array
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="630" data-default-tab="js" data-slug-hash="mdBKMQo" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/mdBKMQo">
+                            029.3 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        
+        <section>
+
+            <div class="title"><h1 class="avancado">Remoção de valores na ultima posição de uma array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Para conseguirmos fazer a remoção do ultimo elemento do array, precisamos utilizar o <span>.pop()</span>. Para que possamos usar o <span>.pop()</span>, primeiramente temos que colocar o nome do array que queremos fazer a remoção e posteriormente <span>.pop()</span>.
+                        </p>
+                        <p class="descricao">
+                            O diferencial é que podemos colocar essa remoção atribuido a uma variável, onde podemos recuperar esse valor que foi removido caso desejamos utilizar essa variável posteriormente no sistema.
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="560" data-default-tab="js" data-slug-hash="oNGyeOa" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/oNGyeOa">
+                            029.6 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Remoção de valores na primeira posição de uma array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Se quisermos remover um elemento no início do array, a lógica é mais complicado, pois ao remover um elemento no início, temos que mover todos os outros valores do array para ocupar o lugar vago, então o index de todos os valores serão alterados. Então se tivermos alguma parte do programa que tem o papel de ler os valores do array e dependa da posição deles, temos que tomar cuidado, pois podemos causar problema em todo o código.
+                        </p>
+                        <p class="descricao">
+                            Para conseguirmos fazer a remoção do primeiro elemento do array, precisamos utilizar o <span>.shift()</span>. Para que possamos usar o <span>.shift()</span>, primeiramente temos que colocar o nome do array que queremos fazer a remoção e posteriormente <span>.shift()</span>.
+                        </p>
+                        <p class="descricao">
+                            O diferencial é que podemos colocar essa remoção atribuido a uma variável, onde podemos recuperar esse valor que foi removido caso desejamos utilizar essa variável posteriormente no sistema.
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="630" data-default-tab="js" data-slug-hash="gOGKxJV" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/gOGKxJV">
+                            029.7 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Inserção de valores na ultima posição(função) de uma array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Alem da outra forma mostrada anteriormente, que não é nada prático, temos uma forma bem mais prática, que utiliza uma função nativa do próprio array, sendo ela o <span>.push()</span>. Para que possamos utilizá-lo, basta apenas colocar o nome da array que definimos e por ultimo, colocamos <span>.push()</span>. Dentro dos parenteses, colocaremos o valor que desejamos inserir na ultima posição do array, se o valor estiver entre aspas, será inserido como String, qualquer outro caso, será inserido como um valor normal.
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="470" data-default-tab="js" data-slug-hash="RwLJZEd" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/RwLJZEd">
+                            029.4 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Inserção de valores no início de uma array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Se quisermos inserir outro elemento no início do array, a lógica é mais complicado, pois ao inserir um elemento no início, temos que arrastar todos os outros valores do que estavam no lugar, então o index de todos os valores serão alterados. Então se tivermos alguma parte do programa que tem o papel de ler os valores do array e dependa da posição deles, temos que tomar cuidado, pois podemos causar problema em todo o código.
+                        </p>
+                        <p class="descricao">
+                            Para que possamos realizar essa inserção, temos que utilizar a função <span>.unshift()</span>. Onde precisamos apenas colocar o nome do array que queremos fazer a inserção, e posteriomente colocamos <span>.unshift()</span>. Dentro dos parenteses colocamos os valores que desejamos adicionar
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="480" data-default-tab="js" data-slug-hash="jOGKLJr" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/jOGKLJr">
+                            029.5 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Fatiamento de uma array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Para que possamos fazer o fatiamento de uma array, podemos utilizar o <span>.slide()</span>, que trabalha por posições, funcionando de forma muito semelhante com o fatiamento de Strings. Para que possamos usá-lo, podemos passar dois valores, separados por virgula, onde o primeiro será o ponto de partida e o seguindo o ponto de finalização. Caso passamos apenas um valor, apartir daquele valor no index, o array será cortada até o final. Lembrando que podemos utilizar valores tanto negativos, quanto positivos
+                        </p>
+
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="680" data-default-tab="js" data-slug-hash="oNGyGvQ" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/oNGyGvQ">
+                            029.9 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Converter String em Array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Para que possamos fazer a conversão de uma String em Array iremos precisar utilziar o split(), que funcionará como uma função de corte que usará um caractere definido para fazer o recorte e colocar dentro de valores do array. Para que possamos utilizar o split(), temos que colocar o nome da variável que carrega a string, marcação de ponto, e split(). Dentro dos parenteses colocaremos entre aspas o caractere que será responsável por definir os pontos que a String irá ser cortada, onde cada corte ficará dentro de uma posição do array. O caracterer mais utilizado para fazer esse tipo de operação é o espaço.
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="450" data-default-tab="js" data-slug-hash="WNXbqZv" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/WNXbqZv">
+                            151 - Array</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Converter array em string</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Para que possamos fazer a conversão de uma array em string iremos precisar utilziar o join(), que funcionará como uma função que irá pegar os valores do array e colocar todos dentro de uma única string. Para que possamos utilizar o join(), temos que colocar o nome da variável que carrega o array, marcação de ponto, e join(). Dentro dos parenteses colocaremos entre aspas o caractere que será responsável por definir oque será colocado entre cada valor do array. O caracterer mais utilizado para fazer esse tipo de operação é o espaço.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="400" data-default-tab="js" data-slug-hash="zYPxVjP" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/zYPxVjP">
+                            151.2 - Array</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Typeof de uma array</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            A lógica por trás do <span>typeof</span> é mais complicada do que as outras estruturas de dados, já que muitos dos elementos do JS é definido como Object, e caso tentamos ver qual o typeOf de uma array, também será dado como object, tornando impossível de ter 100% de certeza que se trata de uma array.	
+                        </p>
+                        <p class="descricao">
+                            Mas como temos vários tipos de objetos, não temos certeza se estamos trabalhando com array apenas utilziando typeof, e por isso podemos utilizar instanceof, recebendo uma resposta booleana. Para conseguirmos usá-lo, temos que colocar o nome do array e <span>instanceof Array</span>
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="550" data-default-tab="js" data-slug-hash="qBPKPBM" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/qBPKPBM">
+                            029.10 - Arrays</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+
     </main>
     
 

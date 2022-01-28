@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <title>Método splice</title>
     <script>
-        var active = 4
-        var voltar = "conteudo/javascript/js - array(avancado).html"
-        var link_geral = "../../../index.html"
-        var caminho_camada  = "../../../../"
-        var icon = "../../../../assets"
+        let active = 5
+        let voltar = "conteudo/javascript/js - array(avancado).html"
+        let link_geral = "../../../index.html"
+        let caminho_camada  = "../../../../"
+        let icon = "../../../../assets"
 
       </script>
       
@@ -32,22 +32,28 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                            O método Splice faz o que o pop, push, shift e unshift faz e mais um pouco. No splice() podemos passar vários argumentos, sendo que o primeiro é qual indice queremos mecher, depois colocamos quantos elementos queremos remover, e por fim colocamos os elementos que queremos adicionar. Exemplo:
+                        </p> 
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                            nomes.splice(indice, delete, elem1, elem2, elem3)
+                        </p> 
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                            Simular a função pop: So colocar para remover um elemento na posição -1: splice(-1,1). Assim como o pop, ela tambpem retorna um elemento, só que é em formato de array, por que podemos remover mais de um elemento.
+                        </p> 
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                            Simular a função shift: So colocar para remover um elemento na posição 0: splice(0,1)
+                        </p> 
+                        <p class="descricao">
+                            Simular a função push: So colocar para mecher no elemento .length(que será a ultima posição vazia) e adicionar o elemento sem remover nenhum elemento:  splice(nome.length, 0, elem)
+                        </p> 
+                        <p class="descricao">
+                            Simular a função unshift: So colocar para mecher no elemento 0, sem remover nd e colocar os elementos que queremos adicionar: splice(0,0, "elem1")
+                        </p> 
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="jOGxxYq" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <p class="codepen" data-height="900" data-default-tab="js" data-slug-hash="jOGxxYq" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/jOGxxYq">
                             082 - Método Splice</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>

@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../css/estrutura.css">
     <link rel="stylesheet" href="../../../css/style.css">
-    <title>Closures</title>
+    <title>Freeze</title>
     <script>
         let active = 5
-        let voltar = "conteudo/javascript/js - array(avancado).html"
+        let voltar = "conteudo/javascript/js - objetos e prototypes(avancado).html"
         let link_geral = "../../../index.html"
         let caminho_camada  = "../../../../"
         let icon = "../../../../assets"
@@ -19,38 +19,38 @@
   </head>
   <body>
       <div class="header"></div>
-    
+
     
 
     <main>
         <section>
 
-            <div class="title"><h1 class="avancado">Closures</h1></div>
+            <div class="title"><h1 class="avancado">Freeze</h1></div>
      
             <div class="container">
                 
 
 
-                  
-                        <div class="conteudo">
-                            <p class="descricao">
-                                Closures é a habilidade que a função tem em acessar seu escopo léxico, onde poderemos verificar os escopos que a função tem acesso utilziando o console.dir e acessando o console do navegador.
-                            </p>
-                        </div>
+                <div class="conteudo">
+                    <p class="descricao">
+                        Podemos usar o freeze para que possamos congelar nosso array e impedir que ele sofra modificações, seja inserção, edição ou remoção de valores nos atributos do objetos. Para que possamos utilziar o freeze, temos que declarar Object.freeze(), onde colocaremos o dentro dos parenteses o nome do objeto que desejamos congelar.
+                    </p>
+                    <p class="descricao">
+
+                    </p>
+                </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="500" data-default-tab="js" data-slug-hash="bGoLMvg" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/bGoLMvg">
-                            072 - Closures</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="YzEXPYP" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/YzEXPYP">
+                            152 - freeze</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
                           </p>
                           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                     </div>
         
-                    <div class="image">
-                        <img src="../../../image/Clousers.png" alt="">
-                    </div>
+                    
                 
             </div>
     
@@ -58,8 +58,6 @@
     
         </section>
     </main>
-    
-
     <script src="../../../../modules/active.js"></script>
     <script src="../../../../modules/header.js"></script>
     <script src="../../../Javascript/script.js"></script>

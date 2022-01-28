@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <title>Reduce</title>
     <script>
-        var active = 4
-        var voltar = "conteudo/javascript/js - array(avancado).html"
-        var link_geral = "../../../index.html"
-        var caminho_camada  = "../../../../"
-        var icon = "../../../../assets"
+        let active = 5
+        let voltar = "conteudo/javascript/js - array(avancado).html"
+        let link_geral = "../../../index.html"
+        let caminho_camada  = "../../../../"
+        let icon = "../../../../assets"
 
       </script>
       
@@ -32,22 +32,16 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            O reduxe é uma função específica do array a qual podemos reduzir o array em um único elemento. Para que possamos usar o reduxe, temos que declarar uma variável e atribuir a ela o nome do nosso array juntamente com marcação de ponto e reduxe(). Dentro dos parenteses, temos que passar duas informações, sendo uma delas a função, podendo ser o nome da função e declará-la em outro lugar do sistema, ou podemos apenas criar uma função anônima dentro do próprio parenteses, e o segundo valor é o número start do nosso parâmtreo de acumulador. Uma das vantagens de utilizar o reduxe é que, como parâmetro da função, podemos colocar quatro nomes, que automaticamente irão carregar dados do nosso array principal, sendo eles o acumulador, que pode ser usado para guardar algum valor durante a execução da função, valor do array, o indice do valor e o array completo, onde o reduxe irá entrar em looping de repetição até que todos os valores sejam lidos. No retorn da função é onde o novo array será criado e acumulado, quando todos os valores do array tiverem sido lidos, o retorn irá retornar o novo array como resultado.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Obs: Um exemplo de utilização do reduxe é: se temos uma lista de números em um array, podemos usar o reduce para somar o valor total do array. Podemos utilizar o reduce para fazer o filter e map, mas não é utilizado e nem ideal. Diferentemente do filter e map, no reduce o primeiro atributo que recebemos não é o valor do elemento, mas o acumulador, depois recebemos  o valor, indice e array. O acumulador é uma variável específica criada para colocar as somas dos valores. Outra diferença é que o método reduce recebe dois valores, sendo a função de callback e o valor inicial do acumulador.
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="yLzjjvg" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <p class="codepen" data-height="1100" data-default-tab="js" data-slug-hash="yLzjjvg" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/yLzjjvg">
                             Untitled</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
@@ -62,6 +56,40 @@
             
     
         </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Exemplo real</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="700" data-default-tab="js" data-slug-hash="gOXpOWE" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/gOXpOWE">
+                            086.2 - Reduce - Reduzindo array</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+
     </main>
     
     <script src="../../../../modules/active.js"></script>

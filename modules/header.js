@@ -16,9 +16,9 @@ header.innerHTML = `
             <ul id="menu">
             <li>
                 <a class="${ativo_inicio}" href="${caminho_camada}index.html ">
-                    <div>
-                        Home
-                    </div>
+                <div>
+                <img src="${icon}/image/icon-home.png" width="35" alt="">
+                </div>
                 </a>
             </li>
             <li>
@@ -121,7 +121,7 @@ header.innerHTML = `
             <li>
                 <a class="${ativo_conteudo}" href="assets/conteudo/${caminho_camada}topicos.html">
                         <div>
-                            Conteúdo
+                        <img src="${icon}/image/icon-conteudo.png" width="35" alt="">
                         </div>
                 </a>
             </li>

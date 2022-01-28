@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <title>Métodos úteis para objetos</title>
     <script>
-        var active = 4
-        var voltar = "conteudo/javascript/js - objetos e prototypes(avancado).html"
-        var link_geral = "../../../index.html"
-        var caminho_camada  = "../../../../"
-        var icon = "../../../../assets"
+       let active = 5
+        let voltar = "conteudo/javascript/js - objetos e prototypes(avancado).html"
+        let link_geral = "../../../index.html"
+        let caminho_camada  = "../../../../"
+        let icon = "../../../../assets"
 
       </script>
       
@@ -25,7 +25,142 @@
     <main>
         <section>
 
-            <div class="title"><h1 class="avancado">Métodos úteis para objetos</h1></div>
+            <div class="title"><h1 class="avancado">...(spread)</h1></div>
+     
+            <div class="container">
+                
+
+
+                <div class="conteudo">
+                    <p class="descricao">
+                        Objetos trabalha por referência, ou seja, se atribuido a outra variável, se alterar a variável ou o objeto original, os dois se alterarão, pois apontam para o mesmo local da memória, para que essa ligação seja encerrada e termos objetos indepedentes, utilizamos o spred operator (...). Com spred operator, podemos também concatenar Objetos inteiros com atributos separados e criar um novo objeto com os atributos de todos os objeto concatenado. Para que possamos concatenar o objeto e atributos em um novo objeto, precisamos declarar uma variável, onde iremos atribuir abre e fecha chaves, e colocar spred operator juntamente com o nome do nome do objeto que iremos concatenar, e para colocar atributos, teremos que colocar o atributo como declararíamos dentro de um objeto.  
+                    </p>
+                    <p class="descricao">
+
+                    </p>
+                </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="650" data-default-tab="js" data-slug-hash="jOGxxxr" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/jOGxxxr">
+                            092 - Métodos úteis para objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>                 
+                
+            </div>
+
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Object.keys</h1></div>
+     
+            <div class="container">
+                
+
+
+                <div class="conteudo">
+                    <p class="descricao">
+                        Podemos usar o keys para que possa ser possível converter os atributos de um objeto em um array. Para que possamos utilizar o keys, temos que declacar Object.keys(), onde dentro dos parenteses iremos colocar o nome do objeto.
+                    </p>
+                    <p class="descricao">
+
+                    </p>
+                </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="400" data-default-tab="js" data-slug-hash="BamNNQr" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/BamNNQr">
+                            153 - keys</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Object.Freeze</h1></div>
+     
+            <div class="container">
+                
+
+
+                <div class="conteudo">
+                    <p class="descricao">
+                        Podemos usar o freeze para que possamos congelar nosso array e impedir que ele sofra modificações, seja inserção, edição ou remoção de valores nos atributos do objetos. Para que possamos utilziar o freeze, temos que declarar Object.freeze(), onde colocaremos o dentro dos parenteses o nome do objeto que desejamos congelar.
+                    </p>
+                    <p class="descricao">
+
+                    </p>
+                </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="YzEXPYP" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/YzEXPYP">
+                            152 - freeze</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Object.defineProperty</h1></div>
+     
+            <div class="container">
+                
+
+
+                <div class="conteudo">
+                    <p class="descricao">
+                        Como dito anteriormente, podemos usar o defineProperty para que possamos travar apenas um do atributos de um objeto. Para que possamos utilizá-lo, iremos primeiro criar nossa constructor function com os atributos desejados, para aqueles atributos que queremos manipular seu estado, não iremos declará-lo, mas sim declarar Object.defineProperty(), onde iremos passar três informações separados por vírgulas, como estamos usando constructor function, sempre colocamos this antes dos atributos, então a primeira informação será o this, a segunda informação será o nome do nosso atributo entre aspas, e por ultimo, a terceira informação será abre e fecha chavez. Dentro das chavez iremos informar quatro informações, que são: enumerable (Iremos colocar true ou false se queremos que a chave seja exibida), value ( iremos colocar o nome do parâmetro da constructor function que desejamos atribuir ao atributo), writable ( colocaremos true ou false se queremos que o atributo seja editável), configurable (colocaremos true ou false se podemos apagar a chave).
+                    </p>
+                    <p class="descricao">
+
+                    </p>
+                </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="850" data-default-tab="js" data-slug-hash="rNGvvdz" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/rNGvvdz">
+                            090 - Object.defineProperty() e Object.defineProperties()</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Object.defineProperties</h1></div>
      
             <div class="container">
                 
@@ -33,24 +168,193 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Como dito anteriormente, podemos usar o defineProperties para que possamos travar vários atributos de um objeto. Para que possamos utilizá-lo, iremos primeiro criar nossa constructor function com os atributos desejados, para aqueles atributos que queremos manipular seu estado, não iremos declará-lo, mas sim declarar Object.defineProperties(), onde iremos passar duas informações separados por vírgulas, como estamos usando constructor function, sempre colocamos this antes dos atributos, então a primeira informação será o this, a segunda informação será abre e fecha chaves. Dentro das chaves iremos colocar o nome do atributo, dois pontos (:) e abre e fecha chaves. Dentro dessas chaves, iremos informar quatro informações, que são: enumerable (Iremos colocar true ou false se queremos que a chave seja exibida), value ( iremos colocar o nome do parâmetro da constructor function que desejamos atribuir ao atributo), writable ( colocaremos true ou false se queremos que o atributo seja editável), configurable (colocaremos true ou false se podemos apagar a chave). A cada atributo, iremos colocar o seu nome, dois pontos e as chaves com as quatro informações dentro, para adicionar mais atributos, basta colcoar vírgula e refazendo o mesmo processo.  
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="jOGxxxr" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/jOGxxxr">
-                            092 - Métodos úteis para objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        <p class="codepen" data-height="1100" data-default-tab="js" data-slug-hash="VwrLLKm" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/VwrLLKm">
+                            090.2 - Object.defineProperty() e Object.defineProperties()</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Extração de atributos</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Para que possamos extrair um atributo e colocar em um novo array, primeiro primeiro precisamos declarar uma variável, onde atribuiremos abre e fecha chaves. Dentro das chaves, iremos colocar um nome, que será o nome do novo atributo, dois pontos (:), e para que possamos adicionar o valor do atributo específico do objeto que iremos retirar o valor, temos que colocar o nome do objeto, marcação de ponto e o nome do atributo com o valor que queremos.
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="dyZoWOp" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/dyZoWOp">
+                            092.3 - Métodos úteis para objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Object.values</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Muito semelhante ao Object.keys, que extrai o nome dos atributos de um objeto e coloca em um array, temos o Object.values, que extrai os valores de todos os atributos e coloca dentro de um array. E para que possamos utilizar o Object.values, temos que declarar Object.values(), onde dentro dos parenteses iremos colocar o nome do objeto.
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="450" data-default-tab="js" data-slug-hash="podJPNq" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/podJPNq">
+                            092.5 - Métodos úteis para objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Object.entries</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Se quisermos uma combinação de Object.keys() e Object.values() podemos utilizar o Object.entries(), que irá retornar uma arrray com outras arrays dentro. Essas arrays interiores, possuirão o nome do atributo e seu valor, quanto mais atributos temos nos objetos, mais arrays interiores ele terá. O interessante é que por causa dessa característica, podemos usar atribuição via desestruturação. Para que possamos usar o Object.entries(), teremos que declarar Object.entries(), e dentro dos seus parentesesm iremos colocar o nome do objeto.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="800" data-default-tab="js" data-slug-hash="MWOwmbx" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWOwmbx">
+                            092.7 - Métodos úteis para objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Object.assign(des, any)</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Podemos usar o Object.assign() também para concatenar objetos dentro de outro, muito parecido com o spred operator, sendo que também podemos adicionar várias coisas. Dentro dos parenteses do Object.assign(), colocamos {}, que será onde os valores serão adicionados, podemos colocar depois entre vigular os objetos que desejamos adicionar, caso ele não exista, colocamos as { } novamente, e dentro delas colocamos as novas chaves que desejamos adicionar.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="700" data-default-tab="js" data-slug-hash="dyZoWpX" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/dyZoWpX">
+                            092.2 - Métodos úteis para objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Object.getOwnPropertyDescriptor(o, 'prop')</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Podemos usar o Object.getOwnPropertyDescriptor() para ver as 4 informarção de um atributo que vimos anteriormente (enumerable, value, writable e configurable). Para que possamos utilizar o Object.getOwnPropertyDescriptor(), temos que declarar Object.getOwnPropertyDescriptor(), e dentro dos parenteses, temos que colocar duas informações separados por vírgulas, a primeira é o nome do obejto, e o segundo é o nome do atributo entre aspas. E para complementar, podemos utilizar Object.defineProperties para poder editar essas informações.
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="900" data-default-tab="js" data-slug-hash="WNXvjoK" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/WNXvjoK">
+                            092.4 - Métodos úteis para objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
                           </p>
                           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

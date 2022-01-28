@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <title>Object.defineProperty() e Object.defineProperties()</title>
     <script>
-        var active = 4
-        var voltar = "conteudo/javascript/js - objetos e prototypes(avancado).html"
-        var link_geral = "../../../index.html"
-        var caminho_camada  = "../../../../"
-        var icon = "../../../../assets"
+        let active = 5
+        let voltar = "conteudo/javascript/js - objetos e prototypes(avancado).html"
+        let link_geral = "../../../index.html"
+        let caminho_camada  = "../../../../"
+        let icon = "../../../../assets"
 
       </script>
       
@@ -25,7 +25,7 @@
     <main>
         <section>
 
-            <div class="title"><h1 class="avancado">Object.defineProperty() e Object.defineProperties() </h1></div>
+            <div class="title"><h1 class="avancado">Object.defineProperty e Object.defineProperties</h1></div>
      
             <div class="container">
                 
@@ -33,22 +33,46 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Como visto anteriormente, podemos usar o freeze para congelar todas as propriedades do objeto, mas se quisermos ter um controle mais preciso, é impossível de conseguirmos utilizando o freese, e por isso que podemos usar o Object.defineProperty() para poder fazer a manipulação do estado de um atributo ou Object.defineProperties() para vários atributos.
                         </p>
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+
                         </p>
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="rNGvvdz" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Object.defineProperty</h1></div>
+     
+            <div class="container">
+                
+
+
+                <div class="conteudo">
+                    <p class="descricao">
+                        Como dito anteriormente, podemos usar o defineProperty para que possamos travar apenas um do atributos de um objeto. Para que possamos utilizá-lo, iremos primeiro criar nossa constructor function com os atributos desejados, para aqueles atributos que queremos manipular seu estado, não iremos declará-lo, mas sim declarar Object.defineProperty(), onde iremos passar três informações separados por vírgulas, como estamos usando constructor function, sempre colocamos this antes dos atributos, então a primeira informação será o this, a segunda informação será o nome do nosso atributo entre aspas, e por ultimo, a terceira informação será abre e fecha chavez. Dentro das chavez iremos informar quatro informações, que são: enumerable (Iremos colocar true ou false se queremos que a chave seja exibida), value ( iremos colocar o nome do parâmetro da constructor function que desejamos atribuir ao atributo), writable ( colocaremos true ou false se queremos que o atributo seja editável), configurable (colocaremos true ou false se podemos apagar a chave).
+                    </p>
+                    <p class="descricao">
+
+                    </p>
+                </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="850" data-default-tab="js" data-slug-hash="rNGvvdz" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/rNGvvdz">
                             090 - Object.defineProperty() e Object.defineProperties()</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
@@ -63,6 +87,41 @@
             
     
         </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Object.defineProperties</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Como dito anteriormente, podemos usar o defineProperties para que possamos travar vários atributos de um objeto. Para que possamos utilizá-lo, iremos primeiro criar nossa constructor function com os atributos desejados, para aqueles atributos que queremos manipular seu estado, não iremos declará-lo, mas sim declarar Object.defineProperties(), onde iremos passar duas informações separados por vírgulas, como estamos usando constructor function, sempre colocamos this antes dos atributos, então a primeira informação será o this, a segunda informação será abre e fecha chaves. Dentro das chaves iremos colocar o nome do atributo, dois pontos (:) e abre e fecha chaves. Dentro dessas chaves, iremos informar quatro informações, que são: enumerable (Iremos colocar true ou false se queremos que a chave seja exibida), value ( iremos colocar o nome do parâmetro da constructor function que desejamos atribuir ao atributo), writable ( colocaremos true ou false se queremos que o atributo seja editável), configurable (colocaremos true ou false se podemos apagar a chave). A cada atributo, iremos colocar o seu nome, dois pontos e as chaves com as quatro informações dentro, para adicionar mais atributos, basta colcoar vírgula e refazendo o mesmo processo.  
+                        </p>
+                        <p class="descricao">
+
+                        </p>
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="1100" data-default-tab="js" data-slug-hash="VwrLLKm" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/VwrLLKm">
+                            090.2 - Object.defineProperty() e Object.defineProperties()</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
     </main>
     <script src="../../../../modules/active.js"></script>
     <script src="../../../../modules/header.js"></script>

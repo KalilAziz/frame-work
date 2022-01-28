@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <title>Revisando objetos</title>
     <script>
-        var active = 4
-        var voltar = "conteudo/javascript/js - objetos e prototypes(avancado).html"
-        var link_geral = "../../../index.html"
-        var caminho_camada  = "../../../../"
-        var icon = "../../../../assets"
+        let active = 5
+        let voltar = "conteudo/javascript/js - objetos e prototypes(avancado).html"
+        let link_geral = "../../../index.html"
+        let caminho_camada  = "../../../../"
+        let icon = "../../../../assets"
 
       </script>
       
@@ -21,9 +21,10 @@
       <div class="header"></div>
 
     <main>
+        
         <section>
 
-            <div class="title"><h1 class="avancado">Revisando objetos</h1></div>
+            <div class="title"><h1 class="avancado">Objetos</h1></div>
      
             <div class="container">
                 
@@ -31,22 +32,111 @@
 
                     <div class="conteudo">
                         <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        O objeto serve para agrupar muitas variáveis em um lugar só, sendo mais simples do que ficar criando  muitas variáveis e sair enumerando elas. A forma de criação de um objeto é muito semelhante com a forma de criação de um array, mas se difere que em vez de utilziar colchetes, utilizamos chavez. E dentro das chavez podemos criar atributos, muito parecido com variáveis, só que está dentro de um objeto, não sendo necessário a utilização da palavra const nem let.
                         </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+
                     </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="KKXRRog" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Criação de um objeto</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            A criação de um objeto em si é muito semelhante a criação de um array, onde temos que iniciar uma variável com um nome e fazer uma atribuição com o sinal de igual, mas a diferença é que o array atribuimos colchetes, enquanto no array atribuimos chaves. Dentro das chaves colocamos os atributos, que são uma espécie de variáveis que carrega valores, sendo necessário colocar apenas o nome, e não let ou const. Para atribuir valores a esses atributos, basta colocar : e o que desejamos.
+                        </p>
+                        
+
+                    </div>
+                    
+                
+                    <div class="codepen">
+                    <p class="codepen" data-height="520" data-default-tab="js" data-slug-hash="poWPwRQ" data-user="kalilaziz" style="height: 623px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/poWPwRQ">
+                    032 - Objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Acesso e inserção de atributo de um objeto</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <div class="codepen">
+                            Posteriormente a criação do objeto, temos que acessa-lo de alguma forma, e isso acontece atravez da notação de ponto. Para que esse acesso aconteça, temos que colocar o nome do objeto, um . e o nome do atributo, muito utilizado já atribuido a uma variável, para que possamos usar esse valor mais facilmente. Lembrando que os atributos tem que estar separados por vírgulas
+                        </div>
+                        <p class="descricao">
+                            Para inserir novos atributos a um objeto é bem simples e parecido com a forma de acesso ao atributo, mas a diferença é que temos que colocar um nome de atributo que não existe, e atribuir um valor, ou seja, colocamos o nome do objeto, . e um nome de um atributo indexistente, depois disso basta atribuir o valor desejado
+                        </p>
+                        
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="1000" data-default-tab="js" data-slug-hash="NWazazg" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/NWazazg">
+                            032.2 - Objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+            </div>
+    
+            
+    
+        </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Remoção de atributos de um objetos</h1></div>
+     
+            <div class="container">
+                
+
+
+                <div class="conteudo">
+                    <p class="descricao">
+                        Para que possamos fazer a remoção de algum atributo do objeto, teremos que usar o delete. Para que possamos usar o delete, teremos que declarar delete, posteriromente, teremos que colocar o nome do objeto juntamente com marcação de ponto e o nome do atributo.
+                    </p>
+                    <p class="descricao">
+
+                    </p>
+                </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="800" data-default-tab="js" data-slug-hash="KKXRRog" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                             <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/KKXRRog">
                             089 - Revisando Objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
@@ -61,6 +151,127 @@
             
     
         </section>
+        <section>
+
+            <div class="title"><h1 class="avancado">Acesso de atributo de um objeto com funtion</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            O problema da utilização de objetos dessa forma é que caimos na mesma pergunta que fizemos anteriormente em funções, não seria mais fácil utilizar variáveis normais que dariam menos trabalho? seria, mas podemos evoluir nosso Objeto também, colocando-o para trabalhar em conjunto com uma função, unindo o útil ao agradável.
+                        </p>
+                        <p class="descricao">
+                            Devemos lembrar que a criação de um objeto depende principalmente das chaves que são seu corpo, e dos atributos que carregam os valores, não precisa estar necessariamente vinculado ou sendo atribuido a uma variável, então podemos criar uma função e atribuir um objeto a seu return, e quando a função for executada, o objeto será executado junto.
+                        </p>
+                        <p class="descricao">
+                            Outra alteração que temos que fazer é que, em vêz de setar os valores dos atributos, passamos os parâmetros das funções, pois quando chamarmos a função com seus argumentos, os objetos receberão seus calores automaticamente e serão atribuidos aos atributos.
+                        </p>
+                        <p class="descricao">
+                            Para chamar os objetos é bem simples, temos duas formas, a primeira delas é chamar os objetos com a notação de ponto quando formos chamar afunção, mas ficaria bem verboso e complicado, então a melhor forma seria atribuir a chamada da função com seus argumentos a uma variável, e posteriormente, utilizar o nome da variável para fazer notação de ponto.
+                        </p>
+
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="1300" data-default-tab="js" data-slug-hash="VwMdMBw" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/VwMdMBw">
+                            032.3 - Objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Modernizando o cesso de atributo de um objeto com Function</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            A modernização do objeto na utilização com a função é uma simples modificação, onde se os valores dos parametros das funções forem iguais aos nomes dos atributos, não precisamos declarar os paramentros para atribuir os valores aos atributos, precisando apenas colocar o nome dos parametros iguais aos atributos que já estarão naturalmente conectados, mas lembre-se que os nomes devem estar iguais.
+                        </p>
+
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="1100" data-default-tab="js" data-slug-hash="eYGKGjj" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/eYGKGjj">
+                            032.4 - Objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+        <section>
+
+            <div class="title"><h1 class="avancado">Function dentro de um objeto</h1></div>
+     
+            <div class="container">
+                
+
+
+                    <div class="conteudo">
+                        <p class="descricao">
+                            Da mesma forma que temos como usar os objetos em um return de uma função, podemos usar funções como um dos atributos de um objeto. Quando usamos a função como um dos atributos, podemos chama-la de método do objeto.
+                        </p>
+                        <p class="descricao">
+                            Para que possamos declarar o método, não precisamos declarar o function, sendo necessário apenas o nome da função, os parenteses dos parâmetros e as chaves do corpo da função.
+                        </p>
+                        <p class="descricao">
+                            Vale lembrar que se quisermos usar os atributos dos objetos no método, temos que usar a palavra this com notação de ponto, que permitirá referenciar ao proprio elemento que está chamando o método e usar seus valores internos.
+                        </p>
+                        <p class="descricao">
+                            this com notação de ponto - this.atributo
+                        </p>
+                        <p class="descricao">
+                            Para chamar o método, é muito parecido com a chamada do objeto, temos que colocar o nome do objeto, uma notação de ponto e o nome da função, acompanhada de seus parenteses.
+                        </p>
+
+                    </div>
+                    
+                
+                    <div class="codepen">
+                        <p class="codepen" data-height="600" data-default-tab="js" data-slug-hash="mdBKBGV" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/mdBKBGV">
+                            032.5 - Objetos</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+        
+                    
+                
+            </div>
+    
+            
+    
+        </section>
+
+       
     </main>
     <script src="../../../../modules/active.js"></script>
     <script src="../../../../modules/header.js"></script>

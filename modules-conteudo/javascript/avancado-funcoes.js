@@ -22,7 +22,7 @@ sectionAcFunc.innerHTML = `
                     <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/funcao avancado/funcoes-construtoras.html">Constructor functions</a></li>
                     <li><a class="inativo" href="${diretorioArquivoConteudo}javascript/funcao avancado/Constructor-functions-Calculadora.html">Calculadora com constructor functions</a></li>
                     <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/funcao avancado/funcoes-recursivas.html">Funções recursivas</a></li>
-                    <li><a class="inativo" href="${diretorioArquivoConteudo}javascript/funcao avancado/funcoes-geradoras.html">Funções geradoras</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/funcao avancado/funcoes-geradoras.html">Funções geradoras</a></li>
                     
                     
     </ul>
