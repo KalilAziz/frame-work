@@ -130,7 +130,7 @@ header.innerHTML = `
         </nav>
 </header> 
 
-<div style="width: 100%; height: 40px; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; margin-top: 55px; position: absolute;">
+<div class = "setas">
 <div><a href="${anterior}.html"> <img src="${icon}/image/setaEs.png" width="35" alt=""> </a></div>
     <div><a href="${proximo}.html"> <img src="${icon}/image/setaDi.png" width="35" alt=""> </a></div>
 </div>

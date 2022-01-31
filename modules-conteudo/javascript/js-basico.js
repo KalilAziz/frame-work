@@ -3,7 +3,7 @@ sectionBasico.innerHTML = `
 
 <div class="name-linguage">
             <img src="${iconeLinguage}image/icon-js.png" width="40px" alt="">
-            <h2>JavaScript - Básico</h2>
+            <h2 >JavaScript - Básico</h2>
 </div>
 <div class="container">
     <ul>

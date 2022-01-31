@@ -35,18 +35,21 @@
 
                 <div class="conteudo">
                     <p class="descricao">
-                        &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   
+                        Como mostrado anteriormente, todas as vezes que foram utilizado prototype, foram utilizado em conjunto com constructor fucntion, mas também podemos utilizar juntamente com factory function. Para que possamos utilizar os prototypes em factory function é bastante simples, onde primeiro teremos que declarar os métodos dentro de objetos literais (objeto sem nenhum atributo dentro) fora da function, onde o único código será o método ou métodos, lembrando que a cada método, tem que ser separado por vírgula. Posteriromente, no retorno de nossa factory function, temos criar um objeto, por meio do Object.create(). Dentro dos paranteses, iremos colocar duas informações, sendo que a primeira será o nome do nosso objeto literal que carrega os métodos, e a segunda informação iremos colocar abre e fecha chaves, onde iremos colocar os outros atributos da nossa factory function. Esses atributos tem que ser separados por vírgula, acompanhado de dois pontos (:) e abre e fecha chaves. Dentro das chaves iremos colocar as quatro informaçòes que nos permitirá manipular o estado do atributo, sendo elas:  enumerable, value, writable, configurable.  
                     </p>
                     <p class="descricao">
-
+                        Obs: Se tivermos queremos declarar mais de um método em nossa factory function, podemos ou colocar todos eles dentro de um objeto literal, ou concatenar todos eles em outro objeto utilizando spred operator, concatendando todos os objetos dentro.
+                    </p>
+                    <p class="descricao">
+                        Obs1: Caso desejar, podemos fazer essa declaração de objetos literais dentro da nossa function, mas não é muito recomendável.
                     </p>
                 </div>
                     
                 
                     <div class="codepen">
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html" data-slug-hash="MWEyorQ" data-preview="true" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/MWEyorQ">
-                            Estruturas basicas html</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
+                        <p class="codepen" data-height="1100" data-default-tab="js" data-slug-hash="gOXaBJo" data-editable="true" data-user="kalilaziz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/kalilaziz/pen/gOXaBJo">
+                            155 - factory function + prototypes</a> by KalilAziz (<a href="https://codepen.io/kalilaziz">@kalilaziz</a>)
                             on <a href="https://codepen.io">CodePen</a>.</span>
                           </p>
                           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

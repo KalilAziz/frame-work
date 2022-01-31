@@ -103,12 +103,21 @@ section .container .conteudo .descricao{
     text-align: justify;
     display: block;
 }
-section .container .image{
+section .image{
     text-align: center;
-    padding: 10px;
+    max-width: 70%;
 }
-section .container .image img{
-    width: 70%;
-    min-width: 360px;
+section  .image img{
+    width: 100%;
     text-align: center;
+}
+
+    
+@media (max-width: 430px ) {
+    section .title{
+        margin-top: 75px;
+        max-width: 250px;
+        text-align: center;
+    }
+
 }

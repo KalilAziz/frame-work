@@ -157,27 +157,8 @@ body{
         min-width: 200px;
         
     }
+    .linguage{
+        max-width: 220px
+    }
 }
 
-
-/* .container .conteudo{
-    margin: auto;
-}
-
-.container .conteudo ul{
-    list-style: none;
-    height: auto;
-    
-}
-
-.container .conteudo a{
-    display: block;
-    background-color: var(--background-elementos);
-    padding: 20px 40px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    box-shadow:5px 5px 18px 0px rgba(50, 50, 50, 0.6);
-} */

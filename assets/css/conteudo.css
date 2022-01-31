@@ -101,6 +101,13 @@ section .container ul .hacks{
     color: white;
 }
 
+@media screen and (max-width:475px) {
+    
+    .name-linguage{
+        max-width: 220px
+    }
+}
+
 
 
 

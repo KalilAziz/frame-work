@@ -16,9 +16,9 @@ sectionAcObjProto.innerHTML = `
                     <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/javascript objetos e prototyoes avancado/05 - prototypes.html">Prototypes</a></li>
                     <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/javascript objetos e prototyoes avancado/06 - manipulando-prototypes.html">Manipulando Prototypes</a></li>
                     <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/javascript objetos e prototyoes avancado/07 - herancas.html">Herança</a></li>
-                    <li><a class="inativo" href="${diretorioArquivoConteudo}javascript/javascript objetos e prototyoes avancado/08 - polimorfismo.html">Polimorfismo</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/javascript objetos e prototyoes avancado/08 - polimorfismo.html">Polimorfismo</a></li>
                     <li><a class="inativo" href="${diretorioArquivoConteudo}javascript/javascript objetos e prototyoes avancado/08 - exercicio - validando um cpf.html">Exercício - Validando um CPF</a></li>
-                    <li><a class="inativo" href="${diretorioArquivoConteudo}javascript/javascript objetos e prototyoes avancado/09 - factory-functions-prototypes.html">Factory Functions + Prototypes</a></li>
+                    <li><a class="avancado" href="${diretorioArquivoConteudo}javascript/javascript objetos e prototyoes avancado/09 - factory-functions-prototypes.html">Factory Functions + Prototypes</a></li>
                     <li><a class="inativo" href="${diretorioArquivoConteudo}javascript/javascript objetos e prototyoes avancado/10 - objeto-map.html">Objeto Map()</a></li>
     </ul>
 
