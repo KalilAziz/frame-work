@@ -112,6 +112,7 @@ body{
     box-shadow: 5px 5px 18px 0px rgba(50, 50, 50, 0.6);
     border-radius: 10px;
     padding: 20px 0;
+    text-align: center;
 }
 
 .nivel-aprendizado .basico:hover,
@@ -157,8 +158,20 @@ body{
         min-width: 200px;
         
     }
+    .container .linguage{
+        justify-content: center;
+    }
+
+    .container .linguage .name-linguagem{
+        justify-content: center;
+    }
+
     .linguage{
         max-width: 220px
+    }
+
+    .nivel-aprendizado{
+        justify-content: center;
     }
 }
 
